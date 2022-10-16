@@ -30,6 +30,7 @@ public class SimpleDataToolController {
         try{
 	        
             File file = new File(filePath);
+            //Using the lib that was already in the project
             CsvMapper mapper = new CsvMapper();
             mapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
             CsvSchema Schema = CsvSchema.emptySchema().withHeader();
@@ -93,7 +94,7 @@ public class SimpleDataToolController {
      * @return float of monthly premium
      */
     public double sumMonthlyPremiumForCustomerId(List<Policy> policies, int customerId) {
-        //Copy the given List as all situations this method is used it needs to be untouched
+        //Copy the given List as all situations this method is used the original List needs to remain consistent
         List<Policy> policiesCopy = new LinkedList<>(policies);
         policiesCopy.removeIf(p -> p.getCustomerId() != customerId);
         double policyTotal = 0d;
@@ -119,21 +120,27 @@ public class SimpleDataToolController {
 
 
         List<Customer> cust = readCsvFile(filePathToCustomer, Customer.class);
+
         cust.removeIf(c-> !c.getFirstName().equals(firstName));
         cust.removeIf(c -> !c.getLastName().equals(lastName));
         if(cust.size() == 0){
             return null;
         }
+
+
         Customer customer = cust.get(0);
 
         List<Policy> policies = readCsvFile(filePathToPolicy, Policy.class);
+
         policies.removeIf(p -> p.getCustomerId() != customer.getId());
         List<Integer> policyIds = new LinkedList<>();
+
         for(Policy p : policies){
             policyIds.add(p.getId());
         }
 
         List<Claim> claims = readCsvFile(filePathToClaims, Claim.class);
+
         claims.removeIf(claim -> !policyIds.contains(claim.getPolicyId()));
         claims.removeIf(claim -> !claim.getIsClaimOpen());
 
@@ -150,8 +157,11 @@ public class SimpleDataToolController {
      * @return String of language
      */
     public String getMostSpokenLanguageForState(String customersFilePath, String state) {
+
         List<Customer> cust = readCsvFile(customersFilePath, Customer.class);
+
         Map<String,Integer> languageSpeakers = new HashMap<>();
+
         cust.removeIf(c-> !c.getState().equals(state));
 
         for(Customer customer: cust){
@@ -176,7 +186,7 @@ public class SimpleDataToolController {
      * Helper method for getMostSpokenLanguageForState
      * 
      * @param languageSpeakers State abbreviation String
-     * @param language  
+     * @param language  English String for Langauge
      */
     private void languageSpeakersHelper(Map<String,Integer> languageSpeakers,String language){
         if(languageSpeakers.containsKey(language)){
@@ -199,9 +209,11 @@ public class SimpleDataToolController {
         List<Customer> cust = readCsvFile(customersFilePath, Customer.class);
         Map<Integer,Double> premiumTotals = new HashMap<>();
         for(Customer customer : cust){
+            //Subtract by 1 to fill 0 index to prevent slide
             premiumTotals.put(customer.getId() - 1, sumMonthlyPremiumForCustomerId(policies, customer.getId()));
         }
         List<Integer> keys = new LinkedList<Integer>(premiumTotals.keySet());
+
         keys.sort((k1,k2) -> (int)(Math.ceil(premiumTotals.get(k2)) - Math.ceil(premiumTotals.get(k1))));
 
         return cust.get(keys.get(0));

@@ -1,9 +1,9 @@
-Your team (name of each individual participating):
-How many JUnits were you able to get to pass? 
+Your team (name of each individual participating):Levi Bottomley
+How many JUnits were you able to get to pass? 10
 
 Document and describe any enhancements included to help the judges properly grade your submission.
-	Step 1:
-	Step 2: 
+	Step 1: There was an in-progress to allow the software to move the csv data into a sql database through template inserts and using the skeletons methods. 
+	Step 2: DDL for generating Database for existing Models added to resources
 	
 	
 Feedback for the coding competition?  Things you would like to see in future events?
