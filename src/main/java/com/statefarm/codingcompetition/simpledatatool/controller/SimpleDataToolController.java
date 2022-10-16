@@ -118,6 +118,12 @@ public class SimpleDataToolController {
      * @return String of language
      */
     public String getMostSpokenLanguageForState(String customersFilePath, String state) {
+        List<Customer> customers = readCsvFile(customersFilePath, Customer.class);
+        List<Customer> customers_in_state = customers
+                .stream()
+                .filter(customer -> customer.getState().equals(state))
+                .collect(Collectors.toList());
+        customers_in_state.stream().
         return null;
     }
 
@@ -143,6 +149,11 @@ public class SimpleDataToolController {
      */
     public int getOpenClaimsForState(String customersFilePath, String policiesFilePath, String claimsFilePath,
             String state) {
+        List <Claim> claims = readCsvFile(claimsFilePath, Claim.class);
+        List <Customer> customers = readCsvFile(customersFilePath, Customer.class);
+        List <Policy> policies = readCsvFile(policiesFilePath, Policy.class);
+        List <Claim> open_claims = claims.stream().filter(claim -> claim.getIsClaimOpen()).collect(Collectors.toList());
+        List <Claim> open_claims_policies = claims.stream().filter(claim -> claim.getPolicyId());
         return 0;
     }
 
