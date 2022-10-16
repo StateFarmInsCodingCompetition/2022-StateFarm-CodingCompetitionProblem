@@ -138,6 +138,7 @@ public class SimpleDataToolController {
                 .stream()
                 .filter(customer -> customer.getState().equals(state))
                 .collect(Collectors.toList());
+        HashMap<String,Integer>
         customers_in_state.stream().
         return null;
     }
