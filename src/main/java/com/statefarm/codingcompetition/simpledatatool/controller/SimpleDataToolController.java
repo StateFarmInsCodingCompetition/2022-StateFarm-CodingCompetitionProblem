@@ -32,17 +32,21 @@ public class SimpleDataToolController {
      */
     public <T> List<T> readCsvFile(String filePath, Class<T> classType) {
         List<T> entries = new ArrayList<>();
-        try {
+        try
+        {
             CsvSchema bootstrapSchema = CsvSchema.emptySchema().withHeader();
             CsvMapper mapper = new CsvMapper();
             mapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
             ObjectReader oReader = mapper.readerFor(classType).with(bootstrapSchema);
             Reader reader = new FileReader(filePath);
             MappingIterator<T> mi = oReader.readValues(reader);
-            while (mi.hasNext()) {
+            while (mi.hasNext())
+            {
                 entries.add(mi.next());
             }
-        } catch (Exception e) {
+        }
+        catch (Exception e)
+        {
             e.printStackTrace();
         }
         return entries;
@@ -116,6 +120,7 @@ public class SimpleDataToolController {
     public Integer getNumberOfOpenClaimsForCustomerName(String filePathToCustomer, String filePathToPolicy,
             String filePathToClaims, String firstName, String lastName) {
 
+        /*Read Customer, Policy, Claims csv files*/
         List<Customer>  customers   = readCsvFile(filePathToCustomer, Customer.class);
         List<Policy>    policies    = readCsvFile(filePathToPolicy, Policy.class);
         List<Claim>     claims      = readCsvFile(filePathToClaims, Claim.class);
@@ -153,28 +158,56 @@ public class SimpleDataToolController {
     public String getMostSpokenLanguageForState(String customersFilePath, String state) {
 
         List<Customer> customers = readCsvFile(customersFilePath, Customer.class);
+        Map<String,Integer> language = new HashMap<>();
+
         List<Customer> customers_in_state = customers
                 .stream()
                 .filter(customer -> customer.getState().equals(state))
                 .collect(Collectors.toList());
 
-        Map<String,Integer> language = new HashMap<>();
 
-        for (Customer customer : customers_in_state){
-            if (!customer.getPrimaryLanguage().equals("English")){
-                if (language.containsKey(customer.getPrimaryLanguage())){
-                    language.put(customer.getPrimaryLanguage(), language.get(customer.getPrimaryLanguage())+1);
-                } else {
-                    language.put(customer.getPrimaryLanguage(), 1);
+
+        for (Customer customer : customers_in_state)
+        {
+            if (!customer.getPrimaryLanguage().equals("English"))
+            {
+                if (language.containsKey(customer.getPrimaryLanguage()))
+                {
+                    language.put
+                        (
+                        customer.getPrimaryLanguage(),
+                        language.get(customer.getPrimaryLanguage())+1
+                        );
+                }
+                else
+                {
+                    language.put
+                        (
+                        customer.getPrimaryLanguage(),
+                        1
+                        );
                 }
             }
 
-            if (!customer.getSecondaryLanguage().equals("")){
-                if (!customer.getSecondaryLanguage().equals("English")){
-                    if (language.containsKey(customer.getSecondaryLanguage())){
-                        language.put(customer.getSecondaryLanguage(), language.get(customer.getSecondaryLanguage())+1);
-                    } else {
-                        language.put(customer.getSecondaryLanguage(), 1);
+            if (!customer.getSecondaryLanguage().equals(""))
+            {
+                if (!customer.getSecondaryLanguage().equals("English"))
+                {
+                    if (language.containsKey(customer.getSecondaryLanguage()))
+                    {
+                        language.put
+                            (
+                            customer.getSecondaryLanguage(),
+                            language.get(customer.getSecondaryLanguage())+1
+                            );
+                    }
+                    else
+                    {
+                        language.put
+                            (
+                            customer.getSecondaryLanguage(),
+                            1
+                            );
                     }
                 }
             }
@@ -201,19 +234,43 @@ public class SimpleDataToolController {
         List<Customer>         customers        = readCsvFile(customersFilePath, Customer.class);
         Map<Integer, Double>   customerPremiums = new HashMap<>();
         for (Customer customer : customers) {
-            customerPremiums.put
-                (
-                customer.getId(), sumMonthlyPremiumForCustomerId(policies, customer.getId()));
+            if (customerPremiums.containsKey(customer.getId()))
+            {
+                customerPremiums.put
+                    (
+                    customer.getId(),
+                    customerPremiums.get(customer.getId()) + sumMonthlyPremiumForCustomerId(policies, customer.getId())
+                    );
+            }
+            else
+            {
+                customerPremiums.put
+                    (
+                    customer.getId(),
+                    sumMonthlyPremiumForCustomerId(policies, customer.getId())
+                    );
+            }
         }
-
         Map.Entry<Integer, Double> maxEntry = null;
-        for (Map.Entry<Integer, Double> entry : customerPremiums.entrySet()) {
-            if (maxEntry == null || entry.getValue().compareTo(maxEntry.getValue()) > 0) {
+        for (Map.Entry<Integer, Double> entry : customerPremiums.entrySet())
+        {
+            if (maxEntry == null ||
+                entry.getValue() > (maxEntry.getValue()))
+            {
                 maxEntry = entry;
+            }
+
+        }
+        for (Customer customer : customers)
+        {
+            if (customer.getId() == maxEntry.getKey())
+            {
+                return customer;
             }
         }
         return null;
     }
+
 
     /**
      * Returns the total number of open claims for a given state
@@ -235,12 +292,14 @@ public class SimpleDataToolController {
                 .stream()
                 .filter(claim -> claim.getIsClaimOpen())
                 .collect(Collectors.toList());
+
         List <Policy>   open_claims_policies        = policies
                 .stream()
                 .filter(policy -> open_claims
                         .stream()
                         .anyMatch(claim -> claim.getPolicyId() == policy.getId()))
                 .collect(Collectors.toList());
+
         List <Customer> open_claims_customers       = customers
                 .stream()
                 .filter(customer -> open_claims_policies
