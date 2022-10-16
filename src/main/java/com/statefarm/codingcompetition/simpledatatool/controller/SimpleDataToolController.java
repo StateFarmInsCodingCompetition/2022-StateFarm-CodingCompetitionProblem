@@ -144,7 +144,18 @@ public class SimpleDataToolController {
      * @return Customer that has the highest, total premium as Customer object
      */
     public Customer getCustomerWithHighestTotalPremium(String customersFilePath, List<Policy> policies) {
-        return null;
+        List<Customer> customers = readCsvFile(customersFilePath, Customer.class);
+        Map<Integer, Double> customerPremiums = new HashMap<>();
+        for (Customer customer : customers) {
+            customerPremiums.put(customer.getId(), sumMonthlyPremiumForCustomerId(policies, customer.getId()));
+        }
+        Map.Entry<Integer, Double> maxEntry = null;
+        for (Map.Entry<Integer, Double> entry : customerPremiums.entrySet()) {
+            if (maxEntry == null || entry.getValue().compareTo(maxEntry.getValue()) > 0) {
+                maxEntry = entry;
+            }
+        }
+        return customers.stream().filter(customer -> customer.getId() == maxEntry.getKey()).findFirst().get();
     }
 
     /**
