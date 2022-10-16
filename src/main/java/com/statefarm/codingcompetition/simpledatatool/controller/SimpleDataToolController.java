@@ -78,7 +78,8 @@ public class SimpleDataToolController {
      * @return number of customer for agent
      */
     public int getNumberOfAgentsForState(String filePath, String state) {
-        return 0;
+        List<Agent> agents = readCsvFile(filePath, Agent.class);
+        return (int) agents.stream().filter(agent -> agent.getState().equals(state)).count();
     }
 
     /**
@@ -89,7 +90,8 @@ public class SimpleDataToolController {
      * @return float of monthly premium
      */
     public double sumMonthlyPremiumForCustomerId(List<Policy> policies, int customerId) {
-        return 0d;
+        return policies.stream().filter(policy -> policy.getCustomerId() == customerId)
+                .mapToDouble(policy -> policy.getPremiumPerMonth()).sum();
     }
 
     /**
@@ -105,6 +107,20 @@ public class SimpleDataToolController {
      */
     public Integer getNumberOfOpenClaimsForCustomerName(String filePathToCustomer, String filePathToPolicy,
             String filePathToClaims, String firstName, String lastName) {
+        List<Customer> customers = readCsvFile(filePathToCustomer, Customer.class);
+        List<Policy> policies = readCsvFile(filePathToPolicy, Policy.class);
+        List<Claim> claims = readCsvFile(filePathToClaims, Claim.class);
+        getNumberOfOpenClaims(claims);
+        Optional<Customer> customer = customers.stream()
+                .filter(c -> c.getFirstName().equals(firstName) && c.getLastName().equals(lastName)).findFirst();
+        if (customer.isPresent()) {
+            List<Policy> customerPolicies = policies.stream()
+                    .filter(policy -> policy.getCustomerId() == customer.get().getId()).collect(Collectors.toList());
+            List<Claim> customerClaims = claims.stream()
+                    .filter(claim -> customerPolicies.stream().anyMatch(policy -> policy.getId() == claim.getPolicyId()))
+                    .collect(Collectors.toList());
+            return getNumberOfOpenClaims(customerClaims);
+        }
         return null;
     }
 
