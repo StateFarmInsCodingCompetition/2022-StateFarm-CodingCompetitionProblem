@@ -1,0 +1,4 @@
+CREATE TABLE IF NOT EXISTS agent ( id INT NOT NULL, first_name VARCHAR(50) NOT NULL, last_name VARCHAR(50) NOT NULL, 'state' VARCHAR(2) NOT NULL, region VARCHAR(20) NOT NULL,pri_lang VARCHAR(20),sec_lang VARCHAR(20), PRIMARY KEY (id));
+CREATE TABLE IF NOT EXISTS customer ( id INT NOT NULL, agent_id INT, first_name VARCHAR(50) NOT NULL, last_name VARCHAR(50) NOT NULL, 'state' VARCHAR(2) NOT NULL, region INT NOT NULL,pri_lang VARCHAR(20),sec_lang VARCHAR(20),PRIMARY KEY (id),FOREIGN KEY(agent_id) REFERENCES agent(id));
+CREATE TABLE IF NOT EXISTS 'policy'(id INT NOT NULL, customer_id INT ,startDate DATETIME NOT NULL,premiumPerMonth FLOAT NOT NULL,PRIMARY KEY(id),FOREIGN KEY(customer_id) REFERENCES customer(id));
+CREATE TABLE IF NOT EXISTS claim(id INT NOT NULL, policy_id INT ,claim_type VARCHAR(20),claim_open BOOLEAN,PRIMARY KEY (id),FOREIGN KEY(policy_id) REFERENCES 'policy'(id) );

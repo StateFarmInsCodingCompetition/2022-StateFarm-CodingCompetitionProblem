@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "database": "${workspaceFolder:2022-StateFarm-CodingCompetitionProblem}/statefarm.db",
+            "name": "SFCC2022"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}

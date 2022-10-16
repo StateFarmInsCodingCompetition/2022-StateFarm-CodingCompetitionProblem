@@ -1,18 +1,14 @@
 package com.statefarm.codingcompetition.simpledatatool.controller;
 
-import java.io.FileReader;
-import java.io.Reader;
-import java.util.ArrayList;
+import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Map;
-import java.util.Optional;
-import java.util.Map.Entry;
-import java.util.stream.Collectors;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.MappingIterator;
-import com.fasterxml.jackson.databind.ObjectReader;
 import com.fasterxml.jackson.dataformat.csv.CsvMapper;
 import com.fasterxml.jackson.dataformat.csv.CsvSchema;
 import com.statefarm.codingcompetition.simpledatatool.model.Agent;
@@ -31,7 +27,24 @@ public class SimpleDataToolController {
      * @return List of entries from CSV file
      */
     public <T> List<T> readCsvFile(String filePath, Class<T> classType) {
-        return null;
+        try{
+	        
+            File file = new File(filePath);
+            //Using the lib that was already in the project
+            CsvMapper mapper = new CsvMapper();
+            mapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
+            CsvSchema Schema = CsvSchema.emptySchema().withHeader();
+    
+            
+            MappingIterator<T> it = mapper.readerFor(classType).with(Schema).readValues(file);
+            List<T> ans = it.readAll();
+            return ans;
+            
+           
+            } catch (IOException e) {
+                e.printStackTrace();
+            }
+            return null;
     }
 
     /**
@@ -41,7 +54,8 @@ public class SimpleDataToolController {
      * @return number of open claims
      */
     public int getNumberOfOpenClaims(List<Claim> claims) {
-        return 0;
+        claims.removeIf(c -> !c.getIsClaimOpen());
+        return claims.size();
     }
 
     /**
@@ -52,7 +66,10 @@ public class SimpleDataToolController {
      * @return number of customer for agent
      */
     public int getNumberOfCustomersForAgentId(String filePath, int agentId) {
-        return 0;
+        List<Customer> cust = readCsvFile(filePath, Customer.class);
+        cust.removeIf(c -> c.getAgentId() != agentId);
+
+        return cust.size();
     }
 
     /**
@@ -63,7 +80,10 @@ public class SimpleDataToolController {
      * @return number of customer for agent
      */
     public int getNumberOfAgentsForState(String filePath, String state) {
-        return 0;
+        List<Agent> agents = readCsvFile(filePath, Agent.class);
+        agents.removeIf(a -> !a.getState().equals(state));
+
+        return agents.size();
     }
 
     /**
@@ -74,7 +94,14 @@ public class SimpleDataToolController {
      * @return float of monthly premium
      */
     public double sumMonthlyPremiumForCustomerId(List<Policy> policies, int customerId) {
-        return 0d;
+        //Copy the given List as all situations this method is used the original List needs to remain consistent
+        List<Policy> policiesCopy = new LinkedList<>(policies);
+        policiesCopy.removeIf(p -> p.getCustomerId() != customerId);
+        double policyTotal = 0d;
+        for(Policy custPolicy: policiesCopy){
+            policyTotal += custPolicy.getPremiumPerMonth();
+        }
+        return policyTotal;
     }
 
     /**
@@ -90,7 +117,35 @@ public class SimpleDataToolController {
      */
     public Integer getNumberOfOpenClaimsForCustomerName(String filePathToCustomer, String filePathToPolicy,
             String filePathToClaims, String firstName, String lastName) {
-        return null;
+
+
+        List<Customer> cust = readCsvFile(filePathToCustomer, Customer.class);
+
+        cust.removeIf(c-> !c.getFirstName().equals(firstName));
+        cust.removeIf(c -> !c.getLastName().equals(lastName));
+        if(cust.size() == 0){
+            return null;
+        }
+
+
+        Customer customer = cust.get(0);
+
+        List<Policy> policies = readCsvFile(filePathToPolicy, Policy.class);
+
+        policies.removeIf(p -> p.getCustomerId() != customer.getId());
+        List<Integer> policyIds = new LinkedList<>();
+
+        for(Policy p : policies){
+            policyIds.add(p.getId());
+        }
+
+        List<Claim> claims = readCsvFile(filePathToClaims, Claim.class);
+
+        claims.removeIf(claim -> !policyIds.contains(claim.getPolicyId()));
+        claims.removeIf(claim -> !claim.getIsClaimOpen());
+
+        return claims.size();      
+
     }
 
     /**
@@ -102,7 +157,45 @@ public class SimpleDataToolController {
      * @return String of language
      */
     public String getMostSpokenLanguageForState(String customersFilePath, String state) {
-        return null;
+
+        List<Customer> cust = readCsvFile(customersFilePath, Customer.class);
+
+        Map<String,Integer> languageSpeakers = new HashMap<>();
+
+        cust.removeIf(c-> !c.getState().equals(state));
+
+        for(Customer customer: cust){
+            if(!customer.getPrimaryLanguage().equals("English")){
+                languageSpeakersHelper(languageSpeakers, customer.getPrimaryLanguage());
+            }
+
+            if(!customer.getSecondaryLanguage().isEmpty() && !customer.getSecondaryLanguage().equals("English")){
+                languageSpeakersHelper(languageSpeakers, customer.getSecondaryLanguage());
+            }
+        }
+
+        List<String> keys = new LinkedList<>(languageSpeakers.keySet());
+
+        keys.sort((k1,k2)-> languageSpeakers.get(k2) - languageSpeakers.get(k1));
+
+
+        return keys.get(0);
+    }
+
+    /**
+     * Helper method for getMostSpokenLanguageForState
+     * 
+     * @param languageSpeakers State abbreviation String
+     * @param language  English String for Langauge
+     */
+    private void languageSpeakersHelper(Map<String,Integer> languageSpeakers,String language){
+        if(languageSpeakers.containsKey(language)){
+            int speakers = languageSpeakers.get(language);
+            speakers++;
+            languageSpeakers.put(language,speakers);
+            return;
+        }
+        languageSpeakers.put(language,1);
     }
 
     /**
@@ -113,7 +206,17 @@ public class SimpleDataToolController {
      * @return Customer that has the highest, total premium as Customer object
      */
     public Customer getCustomerWithHighestTotalPremium(String customersFilePath, List<Policy> policies) {
-        return null;
+        List<Customer> cust = readCsvFile(customersFilePath, Customer.class);
+        Map<Integer,Double> premiumTotals = new HashMap<>();
+        for(Customer customer : cust){
+            //Subtract by 1 to fill 0 index to prevent slide
+            premiumTotals.put(customer.getId() - 1, sumMonthlyPremiumForCustomerId(policies, customer.getId()));
+        }
+        List<Integer> keys = new LinkedList<Integer>(premiumTotals.keySet());
+
+        keys.sort((k1,k2) -> (int)(Math.ceil(premiumTotals.get(k2)) - Math.ceil(premiumTotals.get(k1))));
+
+        return cust.get(keys.get(0));
     }
 
     /**
@@ -127,7 +230,24 @@ public class SimpleDataToolController {
      */
     public int getOpenClaimsForState(String customersFilePath, String policiesFilePath, String claimsFilePath,
             String state) {
-        return 0;
+                List<Customer> cust = readCsvFile(customersFilePath, Customer.class);
+                cust.removeIf(c-> c.getState().equals(state));
+
+                List<Policy> policies = readCsvFile(policiesFilePath, Policy.class);
+                for(Customer customer:cust){
+                    policies.removeIf(p -> p.getCustomerId() == customer.getId());
+                }
+                List<Integer> PolicyIds = new LinkedList<>();
+                for(Policy custPolicy : policies){
+                    PolicyIds.add(custPolicy.getId());
+                }
+
+                List<Claim> claims = readCsvFile(claimsFilePath, Claim.class);
+                claims.removeIf(c -> !PolicyIds.contains(c.getPolicyId()));
+                claims.removeIf(c-> !c.getIsClaimOpen());
+
+        
+        return claims.size();
     }
 
     /**
@@ -140,6 +260,25 @@ public class SimpleDataToolController {
      */
     public Map<Integer, Double> buildMapOfAgentPremiums(
             String customersFilePath, String policiesFilePath) {
-        return null;
+                List<Customer> cust = readCsvFile(customersFilePath, Customer.class);
+                Map<Integer,Integer> customerAgent = new HashMap<>();
+                for(Customer customer:cust){
+                    customerAgent.put(customer.getId(),customer.getAgentId());
+                }
+
+                List<Policy> polices = readCsvFile(policiesFilePath, Policy.class);
+                Map<Integer,Double> agentPremiums = new HashMap<>();
+                for(Policy policy: polices){
+                    int agentId = customerAgent.get(policy.getCustomerId());
+                    if(agentPremiums.containsKey(agentId)){
+                        double current = agentPremiums.get(agentId);
+                        agentPremiums.put(agentId,current + policy.getPremiumPerMonth());
+                    } else {
+                        agentPremiums.put(agentId,policy.getPremiumPerMonth());
+                    }
+                }
+
+
+        return agentPremiums;
     }
 }
