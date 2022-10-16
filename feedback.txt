@@ -1,9 +1,10 @@
-Your team (name of each individual participating):
-How many JUnits were you able to get to pass? 
+Your team (name of each individual participating): Joshua Das, Vikas Thoutam
+How many JUnits were you able to get to pass?  10/10
 
 Document and describe any enhancements included to help the judges properly grade your submission.
-	Step 1:
-	Step 2: 
+	N/A
 	
 	
 Feedback for the coding competition?  Things you would like to see in future events?
+
+The Junit and skeleton class was very organized, however in the method header for getNumberOfAgentsForState, the input parameters were defined incorrectly.
