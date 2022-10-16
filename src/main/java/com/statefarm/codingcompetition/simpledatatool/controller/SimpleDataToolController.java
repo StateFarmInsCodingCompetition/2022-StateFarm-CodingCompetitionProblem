@@ -1,5 +1,7 @@
 package com.statefarm.codingcompetition.simpledatatool.controller;
 
+import java.io.File;
+import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.Reader;
 import java.util.ArrayList;
@@ -9,6 +11,7 @@ import java.util.Map;
 import java.util.Optional;
 import java.util.Map.Entry;
 import java.util.stream.Collectors;
+import java.util.Scanner;
 
 import com.fasterxml.jackson.databind.DeserializationFeature;
 import com.fasterxml.jackson.databind.MappingIterator;
@@ -31,7 +34,25 @@ public class SimpleDataToolController {
      * @return List of entries from CSV file
      */
     public <T> List<T> readCsvFile(String filePath, Class<T> classType) {
-        return null;
+        try {
+
+            Scanner sc = new Scanner(new File(filePath));
+            sc.useDelimiter(",");
+
+            List<T> rows = new ArrayList<T>();
+
+            while (sc.hasNext())
+            {
+                rows.add((T) sc.next());
+            }
+            sc.close();  //closes the scanner
+            return rows;
+
+        } catch (FileNotFoundException e) {
+            throw new RuntimeException(e);
+        }
+
+
     }
 
     /**
