@@ -55,7 +55,7 @@ public class SimpleDataToolController {
      * @return number of open claims
      */
     public int getNumberOfOpenClaims(List<Claim> claims) {
-        return 0;
+        return (int) claims.stream().filter(claim -> claim.getIsClaimOpen() == true).count();
     }
 
     /**
