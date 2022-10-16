@@ -1,0 +1,2501 @@
+id,policyId,isClaimOpen,claimType
+0,6973,true,Theft
+1,6926,true,Flood
+2,438,true,Auto Accident
+3,4736,true,Fire Damage
+4,731,true,Natural Disaster Loss
+5,1480,true,Pet Operation
+6,1287,true,Auto Accident
+7,1535,true,Fire Damage
+8,8663,true,Theft
+9,7331,false,Theft
+10,671,true,Glass
+11,2684,true,Fire Damage
+12,2912,false,Theft
+13,1052,true,Pet Operation
+14,5824,true,Flood
+15,2635,false,Flood
+16,7520,true,Flood
+17,8614,true,Flood
+18,8445,true,Theft
+19,9771,false,Pet Operation
+20,2173,true,Flood
+21,7821,true,Natural Disaster Loss
+22,9582,true,Flood
+23,3463,true,Auto Accident
+24,5838,true,Flood
+25,8411,false,Glass
+26,4684,true,Theft
+27,6844,true,Fire Damage
+28,3998,true,Glass
+29,6389,true,Auto Accident
+30,3328,false,Flood
+31,5724,false,Glass
+32,9554,false,Fire Damage
+33,9038,true,Glass
+34,9482,false,Glass
+35,3850,true,Pet Operation
+36,9442,true,Theft
+37,1933,false,Pet Operation
+38,4750,true,Theft
+39,3046,false,Theft
+40,6669,true,Auto Accident
+41,9708,true,Glass
+42,4130,true,Theft
+43,8139,false,Glass
+44,2756,false,Theft
+45,7914,true,Fire Damage
+46,3568,true,Pet Operation
+47,5617,true,Natural Disaster Loss
+48,5211,true,Auto Accident
+49,3052,true,Theft
+50,2022,true,Flood
+51,4177,true,Flood
+52,9195,true,Theft
+53,3548,true,Theft
+54,829,false,Natural Disaster Loss
+55,7082,true,Flood
+56,4642,true,Auto Accident
+57,6627,true,Flood
+58,171,false,Theft
+59,4697,true,Auto Accident
+60,9958,true,Auto Accident
+61,4068,true,Glass
+62,2725,true,Pet Operation
+63,5246,true,Flood
+64,2845,true,Theft
+65,1455,true,Pet Operation
+66,3135,false,Theft
+67,7512,true,Glass
+68,6149,true,Pet Operation
+69,50,true,Glass
+70,7326,true,Flood
+71,6028,true,Natural Disaster Loss
+72,6215,false,Theft
+73,7768,false,Glass
+74,8497,true,Theft
+75,1347,true,Theft
+76,1292,true,Pet Operation
+77,5387,true,Auto Accident
+78,3176,true,Auto Accident
+79,8686,true,Natural Disaster Loss
+80,8245,true,Natural Disaster Loss
+81,4770,false,Theft
+82,9083,true,Theft
+83,9353,true,Fire Damage
+84,5395,true,Fire Damage
+85,30,true,Auto Accident
+86,1520,true,Fire Damage
+87,7756,false,Glass
+88,8471,true,Pet Operation
+89,4228,true,Pet Operation
+90,7604,false,Fire Damage
+91,735,true,Pet Operation
+92,5147,true,Theft
+93,8170,true,Theft
+94,2578,false,Pet Operation
+95,4463,true,Theft
+96,203,true,Theft
+97,4019,true,Pet Operation
+98,2439,false,Natural Disaster Loss
+99,7446,true,Theft
+100,7630,true,Theft
+101,4358,true,Glass
+102,3590,true,Auto Accident
+103,486,true,Theft
+104,2534,true,Pet Operation
+105,3912,true,Auto Accident
+106,7012,true,Natural Disaster Loss
+107,178,true,Auto Accident
+108,8958,true,Flood
+109,1138,false,Pet Operation
+110,3982,true,Fire Damage
+111,8401,true,Pet Operation
+112,3387,false,Pet Operation
+113,7218,true,Pet Operation
+114,2232,true,Theft
+115,9371,true,Pet Operation
+116,9377,true,Pet Operation
+117,8782,true,Theft
+118,3391,true,Flood
+119,8239,true,Fire Damage
+120,6060,true,Natural Disaster Loss
+121,9194,false,Glass
+122,7090,true,Natural Disaster Loss
+123,3717,true,Glass
+124,8715,true,Theft
+125,2182,true,Pet Operation
+126,1549,false,Theft
+127,701,false,Flood
+128,8933,false,Theft
+129,2855,true,Theft
+130,8989,false,Fire Damage
+131,5842,true,Theft
+132,8243,true,Theft
+133,3210,false,Natural Disaster Loss
+134,1005,true,Fire Damage
+135,285,false,Theft
+136,9402,true,Pet Operation
+137,6869,true,Glass
+138,7647,true,Theft
+139,6637,true,Auto Accident
+140,5154,true,Fire Damage
+141,1107,true,Natural Disaster Loss
+142,2300,true,Fire Damage
+143,4721,true,Auto Accident
+144,7375,true,Pet Operation
+145,5359,true,Fire Damage
+146,6104,true,Theft
+147,5869,false,Glass
+148,7394,true,Flood
+149,441,true,Glass
+150,3071,true,Natural Disaster Loss
+151,5894,true,Natural Disaster Loss
+152,874,true,Theft
+153,8339,true,Pet Operation
+154,6518,true,Theft
+155,4872,false,Glass
+156,5637,true,Auto Accident
+157,8848,false,Fire Damage
+158,75,true,Auto Accident
+159,7084,false,Fire Damage
+160,7992,true,Glass
+161,1076,true,Fire Damage
+162,4539,true,Natural Disaster Loss
+163,7114,false,Pet Operation
+164,1996,true,Flood
+165,7482,false,Theft
+166,3387,true,Pet Operation
+167,3788,false,Theft
+168,4354,false,Fire Damage
+169,4561,true,Natural Disaster Loss
+170,1348,true,Fire Damage
+171,7956,true,Natural Disaster Loss
+172,2033,true,Natural Disaster Loss
+173,251,false,Theft
+174,9095,true,Theft
+175,30,true,Auto Accident
+176,9753,false,Pet Operation
+177,8393,true,Fire Damage
+178,7843,true,Theft
+179,8396,true,Pet Operation
+180,5607,false,Theft
+181,6972,true,Theft
+182,2923,true,Flood
+183,393,false,Theft
+184,1097,true,Natural Disaster Loss
+185,6694,false,Fire Damage
+186,4057,false,Fire Damage
+187,568,true,Auto Accident
+188,6982,true,Auto Accident
+189,155,true,Natural Disaster Loss
+190,9293,false,Pet Operation
+191,6297,false,Glass
+192,4291,true,Fire Damage
+193,6044,false,Theft
+194,2149,true,Pet Operation
+195,3317,true,Natural Disaster Loss
+196,8614,true,Natural Disaster Loss
+197,6457,true,Theft
+198,4138,true,Theft
+199,7343,true,Theft
+200,5646,true,Natural Disaster Loss
+201,698,true,Glass
+202,9927,true,Flood
+203,9150,true,Pet Operation
+204,7773,true,Theft
+205,516,true,Auto Accident
+206,6274,false,Flood
+207,584,false,Auto Accident
+208,7265,true,Pet Operation
+209,8743,true,Auto Accident
+210,4575,true,Theft
+211,8242,false,Theft
+212,5131,true,Fire Damage
+213,3709,false,Fire Damage
+214,2630,true,Pet Operation
+215,3544,true,Natural Disaster Loss
+216,6818,false,Flood
+217,5788,true,Auto Accident
+218,5436,false,Pet Operation
+219,9324,true,Pet Operation
+220,1366,false,Theft
+221,9570,true,Theft
+222,7980,true,Natural Disaster Loss
+223,2235,true,Flood
+224,9453,true,Theft
+225,4620,false,Flood
+226,1507,true,Auto Accident
+227,7286,true,Auto Accident
+228,6911,false,Flood
+229,4859,true,Pet Operation
+230,6921,true,Pet Operation
+231,9606,true,Natural Disaster Loss
+232,9234,true,Fire Damage
+233,4488,true,Theft
+234,5899,true,Flood
+235,6861,true,Theft
+236,9388,false,Fire Damage
+237,2071,true,Flood
+238,5510,true,Glass
+239,3432,true,Flood
+240,9169,false,Theft
+241,4145,true,Natural Disaster Loss
+242,7302,true,Natural Disaster Loss
+243,6909,true,Theft
+244,5959,true,Pet Operation
+245,8273,true,Pet Operation
+246,1321,true,Pet Operation
+247,2836,true,Theft
+248,3357,true,Fire Damage
+249,6677,true,Fire Damage
+250,8188,true,Glass
+251,857,true,Glass
+252,8208,true,Fire Damage
+253,3,false,Pet Operation
+254,1029,true,Pet Operation
+255,5252,true,Natural Disaster Loss
+256,9981,true,Flood
+257,7305,false,Auto Accident
+258,795,true,Theft
+259,7129,true,Auto Accident
+260,8456,true,Flood
+261,4223,false,Theft
+262,7803,true,Theft
+263,7652,true,Theft
+264,6424,true,Glass
+265,1396,false,Fire Damage
+266,7382,true,Theft
+267,2973,false,Fire Damage
+268,1217,true,Pet Operation
+269,3471,true,Glass
+270,8488,true,Pet Operation
+271,609,false,Fire Damage
+272,8589,true,Auto Accident
+273,720,true,Glass
+274,7810,true,Pet Operation
+275,8750,true,Theft
+276,514,true,Pet Operation
+277,4394,true,Glass
+278,2340,true,Natural Disaster Loss
+279,4304,true,Pet Operation
+280,2280,true,Theft
+281,8743,true,Theft
+282,4055,false,Fire Damage
+283,9607,true,Theft
+284,5073,true,Theft
+285,5058,false,Auto Accident
+286,8461,true,Theft
+287,2754,true,Flood
+288,149,true,Flood
+289,1441,false,Fire Damage
+290,1144,true,Pet Operation
+291,9371,true,Pet Operation
+292,6337,true,Pet Operation
+293,4008,true,Glass
+294,6333,false,Fire Damage
+295,6349,true,Theft
+296,9338,true,Flood
+297,7453,true,Pet Operation
+298,4099,true,Theft
+299,1610,true,Theft
+300,4055,true,Flood
+301,2344,true,Glass
+302,4179,true,Auto Accident
+303,2840,true,Fire Damage
+304,9989,true,Flood
+305,8019,true,Fire Damage
+306,6713,true,Pet Operation
+307,7613,false,Fire Damage
+308,6618,true,Natural Disaster Loss
+309,2218,true,Natural Disaster Loss
+310,2270,true,Fire Damage
+311,7680,false,Theft
+312,5912,true,Theft
+313,7219,false,Flood
+314,9513,true,Theft
+315,8094,true,Theft
+316,5135,true,Pet Operation
+317,1693,true,Glass
+318,6608,true,Flood
+319,277,false,Pet Operation
+320,9427,true,Pet Operation
+321,9018,true,Glass
+322,7310,true,Flood
+323,2558,true,Auto Accident
+324,5005,true,Theft
+325,9378,true,Theft
+326,2032,true,Theft
+327,4763,false,Fire Damage
+328,2826,true,Glass
+329,609,true,Flood
+330,225,true,Auto Accident
+331,2534,true,Pet Operation
+332,1471,true,Theft
+333,1722,true,Flood
+334,3027,true,Fire Damage
+335,307,false,Theft
+336,3241,true,Glass
+337,3934,true,Flood
+338,488,true,Natural Disaster Loss
+339,7913,true,Auto Accident
+340,3791,true,Theft
+341,9105,false,Natural Disaster Loss
+342,5986,true,Glass
+343,5498,true,Theft
+344,6225,false,Glass
+345,4406,true,Glass
+346,6262,true,Pet Operation
+347,5794,true,Pet Operation
+348,7188,true,Pet Operation
+349,5342,true,Auto Accident
+350,6942,true,Glass
+351,71,false,Auto Accident
+352,1528,false,Flood
+353,1140,false,Auto Accident
+354,1812,false,Theft
+355,5779,true,Natural Disaster Loss
+356,2953,true,Theft
+357,9878,true,Fire Damage
+358,26,false,Flood
+359,7759,true,Pet Operation
+360,9291,true,Glass
+361,7742,true,Theft
+362,6649,true,Fire Damage
+363,1963,true,Theft
+364,4850,true,Theft
+365,3843,true,Fire Damage
+366,2675,true,Natural Disaster Loss
+367,1284,true,Theft
+368,5321,true,Auto Accident
+369,6011,false,Theft
+370,4077,true,Fire Damage
+371,3737,true,Theft
+372,9998,true,Fire Damage
+373,80,false,Glass
+374,7972,false,Auto Accident
+375,8779,true,Glass
+376,7782,true,Pet Operation
+377,9609,true,Glass
+378,3384,true,Pet Operation
+379,7834,false,Flood
+380,3988,false,Theft
+381,1667,true,Auto Accident
+382,7806,true,Theft
+383,6366,false,Theft
+384,4540,true,Auto Accident
+385,8772,true,Auto Accident
+386,4439,false,Natural Disaster Loss
+387,3157,true,Glass
+388,1471,false,Auto Accident
+389,1045,true,Auto Accident
+390,5184,true,Pet Operation
+391,6673,true,Auto Accident
+392,8299,false,Theft
+393,6701,false,Theft
+394,3803,true,Theft
+395,7935,true,Pet Operation
+396,1485,true,Glass
+397,4514,false,Theft
+398,2208,true,Theft
+399,7281,true,Fire Damage
+400,3370,true,Flood
+401,3103,true,Glass
+402,2866,true,Pet Operation
+403,6110,true,Glass
+404,4229,true,Glass
+405,5425,true,Natural Disaster Loss
+406,7938,false,Theft
+407,5108,false,Fire Damage
+408,528,true,Theft
+409,6625,true,Fire Damage
+410,7297,false,Fire Damage
+411,3003,true,Natural Disaster Loss
+412,6204,true,Pet Operation
+413,8646,false,Theft
+414,3115,false,Pet Operation
+415,3635,true,Glass
+416,73,true,Pet Operation
+417,1973,true,Flood
+418,4595,true,Glass
+419,6208,true,Theft
+420,693,true,Glass
+421,3432,true,Natural Disaster Loss
+422,1618,true,Natural Disaster Loss
+423,7344,true,Theft
+424,3541,false,Glass
+425,8807,true,Auto Accident
+426,1195,true,Pet Operation
+427,6546,false,Theft
+428,3584,true,Flood
+429,5630,false,Theft
+430,7909,true,Pet Operation
+431,3391,true,Theft
+432,2615,true,Pet Operation
+433,5703,true,Flood
+434,1735,true,Glass
+435,4088,true,Theft
+436,5939,true,Fire Damage
+437,6560,false,Theft
+438,4584,true,Theft
+439,2357,true,Theft
+440,4437,false,Theft
+441,8260,true,Theft
+442,7169,false,Auto Accident
+443,9027,true,Glass
+444,2030,false,Natural Disaster Loss
+445,3260,true,Pet Operation
+446,5190,true,Theft
+447,8218,true,Pet Operation
+448,9465,true,Flood
+449,4864,true,Natural Disaster Loss
+450,5625,true,Auto Accident
+451,3792,true,Auto Accident
+452,2499,true,Glass
+453,3299,false,Fire Damage
+454,6127,false,Theft
+455,6631,true,Theft
+456,3835,false,Glass
+457,3852,false,Glass
+458,855,true,Theft
+459,6978,false,Flood
+460,4572,true,Theft
+461,3893,true,Theft
+462,5626,true,Theft
+463,1073,false,Auto Accident
+464,3040,true,Natural Disaster Loss
+465,9733,true,Theft
+466,2228,true,Natural Disaster Loss
+467,4200,true,Flood
+468,1211,true,Theft
+469,6429,true,Natural Disaster Loss
+470,5610,true,Fire Damage
+471,9911,true,Pet Operation
+472,6273,false,Theft
+473,3188,true,Theft
+474,1937,false,Flood
+475,686,true,Auto Accident
+476,4754,true,Theft
+477,5637,true,Theft
+478,4595,true,Glass
+479,9551,false,Pet Operation
+480,5098,true,Natural Disaster Loss
+481,9616,true,Pet Operation
+482,5018,true,Theft
+483,4789,true,Pet Operation
+484,6580,true,Fire Damage
+485,2081,false,Glass
+486,6059,true,Theft
+487,9072,false,Fire Damage
+488,9305,false,Pet Operation
+489,2138,true,Natural Disaster Loss
+490,2899,true,Theft
+491,8143,false,Flood
+492,6735,true,Theft
+493,5569,true,Fire Damage
+494,41,true,Glass
+495,8230,true,Flood
+496,8771,true,Theft
+497,1029,true,Pet Operation
+498,765,true,Auto Accident
+499,8453,false,Theft
+500,6304,true,Flood
+501,7787,false,Theft
+502,2471,true,Auto Accident
+503,4148,true,Theft
+504,7895,true,Theft
+505,1401,true,Flood
+506,3618,true,Glass
+507,4199,false,Theft
+508,9471,true,Theft
+509,6197,true,Glass
+510,775,true,Flood
+511,5880,false,Flood
+512,1831,true,Pet Operation
+513,7554,true,Flood
+514,5487,true,Natural Disaster Loss
+515,7497,false,Natural Disaster Loss
+516,6338,true,Theft
+517,2605,true,Auto Accident
+518,809,true,Flood
+519,7000,true,Fire Damage
+520,1453,true,Theft
+521,8046,true,Theft
+522,4956,true,Glass
+523,1857,true,Pet Operation
+524,3450,true,Pet Operation
+525,1988,true,Theft
+526,9596,true,Theft
+527,7863,true,Flood
+528,2902,false,Fire Damage
+529,5944,true,Pet Operation
+530,1398,false,Auto Accident
+531,3529,true,Flood
+532,3282,true,Flood
+533,3468,true,Natural Disaster Loss
+534,4597,true,Flood
+535,357,true,Auto Accident
+536,2566,true,Theft
+537,9616,true,Pet Operation
+538,8942,true,Pet Operation
+539,4455,true,Flood
+540,2287,false,Pet Operation
+541,1350,true,Auto Accident
+542,3834,true,Fire Damage
+543,2817,true,Theft
+544,4349,false,Natural Disaster Loss
+545,3627,true,Natural Disaster Loss
+546,4616,true,Natural Disaster Loss
+547,9418,true,Theft
+548,5569,false,Theft
+549,901,true,Fire Damage
+550,6067,false,Theft
+551,9178,true,Pet Operation
+552,4909,true,Flood
+553,3794,false,Theft
+554,1918,false,Natural Disaster Loss
+555,415,true,Theft
+556,300,true,Natural Disaster Loss
+557,5875,true,Flood
+558,7351,true,Theft
+559,1469,true,Pet Operation
+560,8611,true,Theft
+561,4023,true,Glass
+562,8167,true,Natural Disaster Loss
+563,5969,true,Natural Disaster Loss
+564,1042,true,Fire Damage
+565,2647,true,Flood
+566,8129,true,Theft
+567,2131,true,Theft
+568,8341,false,Fire Damage
+569,1181,true,Pet Operation
+570,1421,false,Flood
+571,8370,true,Theft
+572,3601,true,Theft
+573,3131,false,Flood
+574,3560,true,Fire Damage
+575,943,false,Glass
+576,201,true,Glass
+577,1190,true,Theft
+578,6659,true,Theft
+579,1356,true,Glass
+580,3186,true,Flood
+581,6330,false,Pet Operation
+582,455,true,Fire Damage
+583,133,true,Theft
+584,8429,true,Theft
+585,1374,false,Fire Damage
+586,8438,false,Natural Disaster Loss
+587,4580,true,Natural Disaster Loss
+588,7314,true,Fire Damage
+589,1251,false,Theft
+590,9029,false,Auto Accident
+591,265,true,Pet Operation
+592,6725,true,Natural Disaster Loss
+593,2455,false,Auto Accident
+594,5628,true,Flood
+595,4331,true,Theft
+596,4333,true,Auto Accident
+597,2833,true,Theft
+598,623,true,Theft
+599,9228,true,Natural Disaster Loss
+600,6882,true,Theft
+601,4284,true,Theft
+602,1505,false,Pet Operation
+603,6675,true,Glass
+604,3743,false,Theft
+605,8982,true,Theft
+606,8119,true,Pet Operation
+607,9773,true,Theft
+608,680,true,Natural Disaster Loss
+609,9244,true,Pet Operation
+610,3445,true,Natural Disaster Loss
+611,254,true,Auto Accident
+612,2845,false,Auto Accident
+613,6887,true,Auto Accident
+614,5271,true,Glass
+615,2986,true,Auto Accident
+616,2756,true,Theft
+617,4578,true,Fire Damage
+618,1604,true,Theft
+619,5403,false,Theft
+620,5067,true,Pet Operation
+621,3027,false,Flood
+622,2036,true,Pet Operation
+623,303,true,Glass
+624,3741,false,Theft
+625,7386,false,Natural Disaster Loss
+626,1503,true,Flood
+627,7206,false,Theft
+628,7344,true,Flood
+629,9398,false,Auto Accident
+630,5977,false,Flood
+631,4234,true,Auto Accident
+632,5306,false,Fire Damage
+633,7320,true,Theft
+634,6727,true,Natural Disaster Loss
+635,6412,true,Theft
+636,4863,false,Natural Disaster Loss
+637,5426,true,Flood
+638,9721,true,Natural Disaster Loss
+639,7714,false,Theft
+640,6479,true,Natural Disaster Loss
+641,1970,true,Pet Operation
+642,7152,false,Glass
+643,1304,true,Flood
+644,5287,true,Theft
+645,2373,true,Theft
+646,3375,true,Auto Accident
+647,521,false,Theft
+648,2800,true,Auto Accident
+649,4384,true,Theft
+650,4153,true,Natural Disaster Loss
+651,8594,false,Theft
+652,3474,true,Pet Operation
+653,5666,false,Glass
+654,8251,true,Flood
+655,8400,false,Natural Disaster Loss
+656,1721,true,Theft
+657,5649,true,Theft
+658,5228,false,Glass
+659,5851,true,Theft
+660,1086,false,Flood
+661,1348,false,Theft
+662,7006,true,Theft
+663,6503,false,Flood
+664,8530,true,Auto Accident
+665,162,false,Glass
+666,822,false,Theft
+667,5529,true,Theft
+668,4335,false,Pet Operation
+669,5459,true,Flood
+670,882,true,Flood
+671,9852,true,Pet Operation
+672,5968,true,Theft
+673,1903,true,Pet Operation
+674,896,true,Natural Disaster Loss
+675,4662,true,Theft
+676,2772,true,Flood
+677,564,false,Theft
+678,7001,true,Theft
+679,2354,true,Pet Operation
+680,2496,true,Theft
+681,7835,true,Flood
+682,3162,true,Theft
+683,5741,true,Fire Damage
+684,209,false,Auto Accident
+685,2142,true,Natural Disaster Loss
+686,644,true,Flood
+687,6833,true,Fire Damage
+688,7271,true,Pet Operation
+689,6336,true,Fire Damage
+690,6042,true,Fire Damage
+691,5427,true,Fire Damage
+692,1402,true,Natural Disaster Loss
+693,306,true,Flood
+694,5258,true,Glass
+695,874,true,Theft
+696,2520,false,Theft
+697,7238,true,Glass
+698,5426,true,Fire Damage
+699,4389,true,Flood
+700,6239,true,Theft
+701,2986,true,Auto Accident
+702,2615,false,Pet Operation
+703,6619,false,Glass
+704,6524,true,Natural Disaster Loss
+705,2811,true,Flood
+706,7133,true,Glass
+707,2013,true,Flood
+708,1365,true,Pet Operation
+709,6043,true,Auto Accident
+710,3749,true,Fire Damage
+711,7231,true,Glass
+712,1317,true,Theft
+713,3584,true,Flood
+714,3131,true,Theft
+715,1516,true,Glass
+716,7314,true,Theft
+717,8838,true,Theft
+718,5767,true,Theft
+719,5919,true,Theft
+720,2559,true,Fire Damage
+721,9276,true,Flood
+722,6841,false,Glass
+723,733,true,Natural Disaster Loss
+724,1083,true,Glass
+725,80,true,Theft
+726,5167,false,Theft
+727,9037,true,Fire Damage
+728,5398,true,Auto Accident
+729,6057,false,Auto Accident
+730,36,true,Glass
+731,3376,true,Flood
+732,8686,false,Flood
+733,6370,true,Theft
+734,9107,false,Flood
+735,1421,true,Flood
+736,1611,true,Auto Accident
+737,1510,true,Glass
+738,9490,false,Glass
+739,6912,true,Fire Damage
+740,9947,true,Natural Disaster Loss
+741,4338,true,Glass
+742,3704,true,Auto Accident
+743,1992,true,Glass
+744,4952,false,Glass
+745,2721,true,Natural Disaster Loss
+746,3161,true,Fire Damage
+747,3325,true,Glass
+748,8544,false,Fire Damage
+749,9280,false,Natural Disaster Loss
+750,752,true,Theft
+751,2809,true,Flood
+752,4481,true,Flood
+753,6103,true,Glass
+754,5815,true,Natural Disaster Loss
+755,6847,true,Natural Disaster Loss
+756,1756,true,Theft
+757,114,true,Theft
+758,8624,true,Glass
+759,9960,true,Auto Accident
+760,2830,true,Natural Disaster Loss
+761,283,true,Glass
+762,8547,true,Glass
+763,2656,false,Glass
+764,7188,false,Pet Operation
+765,4175,true,Natural Disaster Loss
+766,5534,true,Fire Damage
+767,9013,false,Fire Damage
+768,3132,true,Flood
+769,4632,true,Natural Disaster Loss
+770,9765,true,Fire Damage
+771,5233,true,Flood
+772,8175,false,Flood
+773,4223,true,Natural Disaster Loss
+774,9823,true,Auto Accident
+775,7916,true,Pet Operation
+776,5164,true,Auto Accident
+777,1166,true,Theft
+778,8074,false,Natural Disaster Loss
+779,5489,true,Theft
+780,2506,false,Auto Accident
+781,569,true,Auto Accident
+782,6166,true,Theft
+783,5948,false,Fire Damage
+784,8568,true,Glass
+785,8911,true,Theft
+786,9967,false,Pet Operation
+787,4006,false,Glass
+788,1467,true,Theft
+789,8938,true,Flood
+790,8139,true,Glass
+791,6390,false,Theft
+792,6216,true,Theft
+793,5935,true,Pet Operation
+794,9964,true,Natural Disaster Loss
+795,1995,true,Flood
+796,431,true,Auto Accident
+797,9634,true,Theft
+798,2274,true,Theft
+799,2277,true,Auto Accident
+800,3867,true,Natural Disaster Loss
+801,2743,true,Natural Disaster Loss
+802,1003,false,Pet Operation
+803,6020,true,Glass
+804,4933,false,Flood
+805,3138,true,Theft
+806,6042,false,Natural Disaster Loss
+807,9564,true,Flood
+808,2506,true,Glass
+809,8409,true,Theft
+810,9119,true,Auto Accident
+811,9076,false,Natural Disaster Loss
+812,1587,true,Fire Damage
+813,9232,false,Auto Accident
+814,4143,false,Fire Damage
+815,8677,true,Theft
+816,3767,true,Pet Operation
+817,2402,true,Theft
+818,4040,true,Glass
+819,2137,true,Pet Operation
+820,9618,true,Flood
+821,1539,true,Auto Accident
+822,6376,false,Glass
+823,9956,true,Auto Accident
+824,8802,false,Pet Operation
+825,4678,true,Theft
+826,6773,true,Fire Damage
+827,6254,true,Auto Accident
+828,1508,true,Fire Damage
+829,3003,true,Natural Disaster Loss
+830,8001,true,Fire Damage
+831,8212,true,Natural Disaster Loss
+832,9232,false,Glass
+833,8497,true,Flood
+834,8630,true,Theft
+835,4127,true,Fire Damage
+836,8835,true,Auto Accident
+837,2385,true,Auto Accident
+838,2398,true,Natural Disaster Loss
+839,5375,true,Pet Operation
+840,2111,false,Fire Damage
+841,9138,true,Fire Damage
+842,3844,false,Theft
+843,8203,true,Flood
+844,1361,true,Theft
+845,3064,true,Auto Accident
+846,7066,true,Glass
+847,6270,true,Pet Operation
+848,5706,true,Theft
+849,9975,true,Natural Disaster Loss
+850,4686,false,Natural Disaster Loss
+851,4054,true,Glass
+852,9875,true,Natural Disaster Loss
+853,513,true,Auto Accident
+854,8732,true,Glass
+855,3032,false,Fire Damage
+856,3730,false,Flood
+857,5364,true,Glass
+858,9526,true,Glass
+859,1723,true,Fire Damage
+860,1630,true,Auto Accident
+861,1373,true,Pet Operation
+862,1811,true,Auto Accident
+863,4136,true,Flood
+864,2829,true,Glass
+865,3175,true,Natural Disaster Loss
+866,1505,true,Pet Operation
+867,8154,true,Flood
+868,6076,true,Natural Disaster Loss
+869,519,true,Pet Operation
+870,5394,true,Theft
+871,2520,false,Auto Accident
+872,2891,false,Natural Disaster Loss
+873,7074,true,Auto Accident
+874,8594,true,Glass
+875,3088,true,Pet Operation
+876,7727,false,Natural Disaster Loss
+877,8159,true,Fire Damage
+878,5432,true,Natural Disaster Loss
+879,6140,false,Natural Disaster Loss
+880,7840,true,Glass
+881,1161,false,Flood
+882,2945,true,Theft
+883,311,true,Natural Disaster Loss
+884,1338,true,Fire Damage
+885,4471,true,Pet Operation
+886,4228,false,Pet Operation
+887,5765,true,Flood
+888,1919,true,Auto Accident
+889,7542,true,Pet Operation
+890,7923,true,Flood
+891,8902,true,Theft
+892,4716,true,Theft
+893,9736,true,Theft
+894,1526,true,Glass
+895,752,true,Theft
+896,4521,true,Theft
+897,4549,true,Glass
+898,499,false,Auto Accident
+899,3958,true,Flood
+900,6610,true,Natural Disaster Loss
+901,3190,true,Pet Operation
+902,5985,true,Theft
+903,4132,false,Theft
+904,8286,true,Flood
+905,8824,true,Natural Disaster Loss
+906,6041,true,Auto Accident
+907,5865,true,Auto Accident
+908,2696,true,Glass
+909,9366,true,Pet Operation
+910,3419,true,Fire Damage
+911,6954,true,Glass
+912,1435,true,Pet Operation
+913,9255,false,Fire Damage
+914,8325,false,Fire Damage
+915,3297,true,Natural Disaster Loss
+916,8655,true,Flood
+917,3885,true,Natural Disaster Loss
+918,719,false,Natural Disaster Loss
+919,6754,true,Fire Damage
+920,3808,true,Glass
+921,3127,true,Pet Operation
+922,9439,true,Pet Operation
+923,2416,true,Fire Damage
+924,8005,true,Flood
+925,568,true,Theft
+926,8658,true,Flood
+927,3096,true,Pet Operation
+928,8052,false,Natural Disaster Loss
+929,6785,false,Natural Disaster Loss
+930,2862,true,Natural Disaster Loss
+931,1759,false,Fire Damage
+932,9771,true,Pet Operation
+933,9215,true,Theft
+934,5067,true,Pet Operation
+935,4602,true,Natural Disaster Loss
+936,3543,true,Pet Operation
+937,3763,true,Fire Damage
+938,4327,true,Fire Damage
+939,5201,false,Theft
+940,5196,true,Auto Accident
+941,7713,true,Theft
+942,5703,true,Natural Disaster Loss
+943,6058,true,Natural Disaster Loss
+944,4992,true,Natural Disaster Loss
+945,9916,true,Theft
+946,6457,true,Theft
+947,814,true,Theft
+948,6037,false,Natural Disaster Loss
+949,8252,true,Glass
+950,6387,true,Fire Damage
+951,9838,true,Glass
+952,8034,true,Natural Disaster Loss
+953,4812,false,Glass
+954,6284,true,Glass
+955,9191,true,Fire Damage
+956,3779,true,Flood
+957,5635,true,Fire Damage
+958,9281,false,Flood
+959,4133,false,Flood
+960,1502,false,Auto Accident
+961,1982,true,Auto Accident
+962,150,false,Theft
+963,7086,true,Auto Accident
+964,3236,true,Natural Disaster Loss
+965,1366,false,Glass
+966,4612,false,Pet Operation
+967,2507,true,Pet Operation
+968,3670,true,Flood
+969,334,true,Auto Accident
+970,5211,true,Glass
+971,7400,true,Natural Disaster Loss
+972,3249,false,Theft
+973,9948,true,Glass
+974,4409,true,Flood
+975,9493,true,Pet Operation
+976,3482,true,Theft
+977,7762,true,Pet Operation
+978,2563,false,Glass
+979,3874,true,Auto Accident
+980,3173,true,Flood
+981,1617,false,Natural Disaster Loss
+982,2545,true,Natural Disaster Loss
+983,8270,true,Glass
+984,8877,false,Theft
+985,8823,false,Theft
+986,6883,false,Auto Accident
+987,6793,true,Auto Accident
+988,1476,true,Auto Accident
+989,8208,true,Natural Disaster Loss
+990,5139,true,Theft
+991,5497,true,Fire Damage
+992,6651,true,Auto Accident
+993,5345,true,Fire Damage
+994,3465,false,Glass
+995,8342,true,Theft
+996,5052,false,Glass
+997,5399,true,Theft
+998,925,true,Theft
+999,5534,true,Flood
+1000,3769,true,Pet Operation
+1001,6350,true,Pet Operation
+1002,3961,true,Pet Operation
+1003,9533,true,Theft
+1004,4069,true,Fire Damage
+1005,8965,true,Theft
+1006,5619,false,Auto Accident
+1007,93,true,Fire Damage
+1008,8460,true,Natural Disaster Loss
+1009,4175,true,Theft
+1010,7943,true,Fire Damage
+1011,5471,true,Flood
+1012,3956,true,Theft
+1013,5596,true,Pet Operation
+1014,4261,true,Glass
+1015,2068,false,Theft
+1016,8956,false,Pet Operation
+1017,1754,true,Fire Damage
+1018,2897,true,Auto Accident
+1019,3235,true,Glass
+1020,7447,true,Flood
+1021,3800,true,Pet Operation
+1022,4975,false,Fire Damage
+1023,651,true,Natural Disaster Loss
+1024,7016,true,Pet Operation
+1025,5138,true,Glass
+1026,9812,true,Theft
+1027,5148,false,Theft
+1028,4679,true,Natural Disaster Loss
+1029,2736,true,Theft
+1030,9824,true,Theft
+1031,4019,true,Pet Operation
+1032,4227,false,Flood
+1033,429,true,Theft
+1034,6250,true,Auto Accident
+1035,2708,false,Theft
+1036,503,true,Fire Damage
+1037,8452,true,Pet Operation
+1038,8240,true,Glass
+1039,1168,true,Theft
+1040,493,false,Theft
+1041,1087,true,Theft
+1042,6879,true,Theft
+1043,2854,false,Fire Damage
+1044,715,false,Auto Accident
+1045,5815,true,Fire Damage
+1046,3789,true,Flood
+1047,7359,true,Theft
+1048,9280,false,Flood
+1049,7214,true,Glass
+1050,6211,true,Natural Disaster Loss
+1051,2618,true,Theft
+1052,3956,true,Auto Accident
+1053,4482,true,Flood
+1054,1143,false,Glass
+1055,4648,false,Theft
+1056,6215,false,Theft
+1057,411,false,Theft
+1058,2022,true,Natural Disaster Loss
+1059,5195,true,Natural Disaster Loss
+1060,8816,true,Glass
+1061,4397,false,Flood
+1062,787,false,Glass
+1063,658,false,Theft
+1064,5490,true,Theft
+1065,5967,true,Theft
+1066,4521,false,Theft
+1067,8056,true,Pet Operation
+1068,4991,true,Auto Accident
+1069,5998,false,Theft
+1070,5331,true,Glass
+1071,4641,false,Glass
+1072,78,true,Flood
+1073,3909,false,Pet Operation
+1074,983,true,Flood
+1075,1098,true,Natural Disaster Loss
+1076,3518,true,Fire Damage
+1077,1514,true,Pet Operation
+1078,8148,true,Natural Disaster Loss
+1079,471,true,Theft
+1080,7563,true,Fire Damage
+1081,1,true,Pet Operation
+1082,9295,false,Pet Operation
+1083,6072,false,Pet Operation
+1084,503,true,Fire Damage
+1085,9852,true,Pet Operation
+1086,7181,true,Theft
+1087,998,true,Glass
+1088,7453,true,Pet Operation
+1089,2533,false,Auto Accident
+1090,9963,false,Pet Operation
+1091,3570,true,Flood
+1092,2860,true,Fire Damage
+1093,3129,true,Theft
+1094,5868,true,Flood
+1095,3125,false,Pet Operation
+1096,273,true,Fire Damage
+1097,8521,false,Theft
+1098,3859,true,Natural Disaster Loss
+1099,4130,false,Theft
+1100,4787,true,Pet Operation
+1101,4288,true,Theft
+1102,2439,true,Natural Disaster Loss
+1103,3603,false,Fire Damage
+1104,4481,true,Theft
+1105,5040,true,Auto Accident
+1106,1613,true,Theft
+1107,2087,true,Fire Damage
+1108,6605,true,Natural Disaster Loss
+1109,6515,true,Fire Damage
+1110,9513,true,Natural Disaster Loss
+1111,5086,true,Fire Damage
+1112,2324,false,Natural Disaster Loss
+1113,4938,true,Flood
+1114,7747,false,Fire Damage
+1115,3083,true,Auto Accident
+1116,6017,true,Theft
+1117,6262,true,Pet Operation
+1118,7361,true,Flood
+1119,3147,true,Theft
+1120,4468,true,Flood
+1121,1418,true,Pet Operation
+1122,8341,true,Theft
+1123,4508,false,Flood
+1124,7370,true,Flood
+1125,3846,true,Glass
+1126,9248,true,Glass
+1127,5474,false,Theft
+1128,7968,true,Auto Accident
+1129,1163,true,Theft
+1130,6005,true,Pet Operation
+1131,3101,true,Theft
+1132,7802,true,Auto Accident
+1133,1594,true,Natural Disaster Loss
+1134,7541,true,Auto Accident
+1135,6396,true,Fire Damage
+1136,2284,true,Glass
+1137,9715,false,Flood
+1138,3663,true,Glass
+1139,2084,true,Flood
+1140,4430,false,Glass
+1141,9122,true,Natural Disaster Loss
+1142,5978,false,Theft
+1143,1246,true,Fire Damage
+1144,9128,true,Fire Damage
+1145,6960,true,Glass
+1146,1438,false,Theft
+1147,4125,true,Theft
+1148,3279,true,Glass
+1149,9953,true,Pet Operation
+1150,2172,true,Auto Accident
+1151,8872,true,Theft
+1152,9360,false,Flood
+1153,9665,true,Theft
+1154,899,false,Flood
+1155,4900,false,Glass
+1156,305,true,Natural Disaster Loss
+1157,5813,true,Natural Disaster Loss
+1158,7055,true,Theft
+1159,2510,true,Theft
+1160,3909,true,Pet Operation
+1161,9015,true,Theft
+1162,572,true,Theft
+1163,9628,false,Theft
+1164,9999,true,Glass
+1165,5410,false,Natural Disaster Loss
+1166,595,false,Fire Damage
+1167,162,false,Glass
+1168,7882,false,Glass
+1169,579,false,Natural Disaster Loss
+1170,8816,true,Glass
+1171,5841,false,Theft
+1172,9318,true,Theft
+1173,1985,true,Pet Operation
+1174,7315,true,Theft
+1175,8504,true,Flood
+1176,4081,true,Auto Accident
+1177,7087,true,Auto Accident
+1178,3044,false,Auto Accident
+1179,4387,true,Fire Damage
+1180,8249,true,Pet Operation
+1181,1582,true,Glass
+1182,6332,true,Natural Disaster Loss
+1183,877,true,Glass
+1184,3637,true,Pet Operation
+1185,4379,true,Natural Disaster Loss
+1186,4627,true,Glass
+1187,7285,true,Auto Accident
+1188,9962,true,Theft
+1189,699,true,Natural Disaster Loss
+1190,2032,true,Flood
+1191,5403,false,Theft
+1192,863,true,Flood
+1193,241,false,Glass
+1194,8543,false,Theft
+1195,4484,false,Auto Accident
+1196,7882,false,Glass
+1197,9366,true,Pet Operation
+1198,6978,true,Natural Disaster Loss
+1199,8203,true,Theft
+1200,4835,false,Theft
+1201,3047,true,Theft
+1202,9002,true,Glass
+1203,4358,false,Glass
+1204,7370,true,Flood
+1205,2930,false,Fire Damage
+1206,3882,true,Theft
+1207,2669,true,Natural Disaster Loss
+1208,4235,true,Theft
+1209,1196,true,Flood
+1210,3255,false,Auto Accident
+1211,8118,true,Flood
+1212,1774,true,Flood
+1213,2152,true,Auto Accident
+1214,6050,true,Flood
+1215,5128,true,Flood
+1216,1205,true,Fire Damage
+1217,8450,true,Theft
+1218,3836,true,Glass
+1219,4613,true,Pet Operation
+1220,6581,false,Auto Accident
+1221,4084,true,Auto Accident
+1222,7603,true,Theft
+1223,3973,true,Glass
+1224,3708,true,Flood
+1225,4424,false,Natural Disaster Loss
+1226,7847,true,Theft
+1227,9559,false,Natural Disaster Loss
+1228,8069,true,Auto Accident
+1229,3944,true,Theft
+1230,1049,false,Auto Accident
+1231,6396,true,Natural Disaster Loss
+1232,7670,true,Natural Disaster Loss
+1233,6823,true,Theft
+1234,5824,false,Fire Damage
+1235,7632,false,Fire Damage
+1236,6038,false,Pet Operation
+1237,8733,true,Glass
+1238,5313,false,Theft
+1239,6900,true,Theft
+1240,1401,true,Theft
+1241,8991,true,Theft
+1242,6415,true,Theft
+1243,7499,false,Natural Disaster Loss
+1244,9820,true,Glass
+1245,6504,true,Natural Disaster Loss
+1246,3394,true,Fire Damage
+1247,9367,true,Theft
+1248,3931,true,Pet Operation
+1249,3805,true,Theft
+1250,7210,true,Glass
+1251,4635,false,Glass
+1252,2331,true,Flood
+1253,1711,true,Theft
+1254,908,true,Theft
+1255,2678,true,Theft
+1256,1045,false,Theft
+1257,6983,true,Pet Operation
+1258,2793,true,Theft
+1259,17,true,Theft
+1260,4765,true,Flood
+1261,5028,true,Glass
+1262,2609,true,Fire Damage
+1263,3583,false,Flood
+1264,4907,true,Auto Accident
+1265,3965,true,Pet Operation
+1266,5629,true,Theft
+1267,9696,true,Pet Operation
+1268,9274,true,Pet Operation
+1269,9761,true,Fire Damage
+1270,782,true,Pet Operation
+1271,6867,false,Natural Disaster Loss
+1272,2440,false,Natural Disaster Loss
+1273,697,true,Glass
+1274,6937,true,Pet Operation
+1275,1099,false,Pet Operation
+1276,8818,true,Theft
+1277,7166,true,Fire Damage
+1278,3928,true,Theft
+1279,4423,false,Flood
+1280,528,true,Auto Accident
+1281,7364,true,Auto Accident
+1282,3295,true,Pet Operation
+1283,8654,true,Theft
+1284,1670,true,Glass
+1285,4257,false,Natural Disaster Loss
+1286,3185,true,Theft
+1287,9036,true,Glass
+1288,2025,true,Auto Accident
+1289,9805,true,Flood
+1290,7378,true,Theft
+1291,9415,true,Theft
+1292,9994,false,Pet Operation
+1293,4525,true,Glass
+1294,5190,false,Auto Accident
+1295,9139,true,Glass
+1296,8354,true,Auto Accident
+1297,3121,true,Flood
+1298,6485,true,Fire Damage
+1299,2866,true,Pet Operation
+1300,3858,true,Pet Operation
+1301,6217,true,Natural Disaster Loss
+1302,9559,true,Natural Disaster Loss
+1303,7167,true,Flood
+1304,8813,true,Auto Accident
+1305,9437,true,Theft
+1306,7852,true,Natural Disaster Loss
+1307,8203,true,Flood
+1308,5382,true,Auto Accident
+1309,3454,true,Theft
+1310,9099,true,Flood
+1311,9411,true,Pet Operation
+1312,857,true,Glass
+1313,8453,true,Glass
+1314,2694,false,Theft
+1315,7744,false,Natural Disaster Loss
+1316,5949,false,Fire Damage
+1317,8527,true,Flood
+1318,4112,true,Theft
+1319,5559,true,Fire Damage
+1320,3355,true,Theft
+1321,6321,true,Flood
+1322,7778,true,Glass
+1323,3341,true,Theft
+1324,3150,false,Glass
+1325,1398,true,Auto Accident
+1326,4210,true,Flood
+1327,1328,false,Fire Damage
+1328,6325,true,Glass
+1329,623,true,Glass
+1330,2287,true,Pet Operation
+1331,6272,true,Auto Accident
+1332,8790,true,Pet Operation
+1333,7702,true,Auto Accident
+1334,525,false,Auto Accident
+1335,1196,true,Natural Disaster Loss
+1336,6087,false,Pet Operation
+1337,2949,true,Auto Accident
+1338,4792,false,Pet Operation
+1339,6345,false,Theft
+1340,3002,false,Natural Disaster Loss
+1341,1993,true,Fire Damage
+1342,6354,true,Pet Operation
+1343,2531,true,Auto Accident
+1344,9027,true,Auto Accident
+1345,155,true,Natural Disaster Loss
+1346,1677,true,Flood
+1347,8538,true,Theft
+1348,1933,true,Pet Operation
+1349,4071,true,Pet Operation
+1350,8026,false,Fire Damage
+1351,5791,true,Glass
+1352,7692,true,Natural Disaster Loss
+1353,9738,true,Flood
+1354,9726,false,Fire Damage
+1355,5286,false,Glass
+1356,5948,false,Flood
+1357,5710,true,Flood
+1358,1709,false,Theft
+1359,5204,true,Fire Damage
+1360,9120,false,Pet Operation
+1361,3786,true,Theft
+1362,5615,true,Glass
+1363,2391,true,Flood
+1364,5976,true,Glass
+1365,3196,false,Glass
+1366,4512,true,Theft
+1367,8287,true,Theft
+1368,2886,true,Auto Accident
+1369,1840,true,Flood
+1370,9852,true,Pet Operation
+1371,2341,true,Pet Operation
+1372,785,true,Auto Accident
+1373,2603,false,Natural Disaster Loss
+1374,5280,false,Pet Operation
+1375,8434,false,Glass
+1376,2590,true,Auto Accident
+1377,2959,true,Flood
+1378,3789,true,Theft
+1379,6324,false,Auto Accident
+1380,4468,true,Theft
+1381,9187,true,Theft
+1382,3512,true,Theft
+1383,8132,false,Theft
+1384,5804,true,Auto Accident
+1385,3822,false,Theft
+1386,6921,true,Pet Operation
+1387,8543,true,Fire Damage
+1388,6204,true,Pet Operation
+1389,8678,true,Glass
+1390,5300,true,Auto Accident
+1391,2600,true,Fire Damage
+1392,2960,true,Natural Disaster Loss
+1393,4586,true,Natural Disaster Loss
+1394,8180,true,Pet Operation
+1395,577,false,Theft
+1396,1533,false,Fire Damage
+1397,2115,false,Flood
+1398,5025,false,Flood
+1399,47,true,Theft
+1400,7823,true,Theft
+1401,3271,true,Natural Disaster Loss
+1402,6620,false,Glass
+1403,1674,true,Natural Disaster Loss
+1404,6319,false,Theft
+1405,2872,true,Flood
+1406,7579,false,Flood
+1407,5343,true,Flood
+1408,7717,true,Auto Accident
+1409,5848,true,Theft
+1410,5757,true,Theft
+1411,2994,true,Flood
+1412,3072,true,Theft
+1413,7804,true,Natural Disaster Loss
+1414,3993,false,Auto Accident
+1415,8351,true,Natural Disaster Loss
+1416,8045,true,Natural Disaster Loss
+1417,7358,true,Flood
+1418,5114,true,Auto Accident
+1419,8826,true,Theft
+1420,9185,true,Glass
+1421,5661,true,Glass
+1422,1814,false,Flood
+1423,9339,false,Theft
+1424,6818,false,Theft
+1425,3215,true,Auto Accident
+1426,2408,false,Natural Disaster Loss
+1427,2595,true,Pet Operation
+1428,9266,true,Pet Operation
+1429,821,true,Fire Damage
+1430,4444,true,Fire Damage
+1431,6047,true,Auto Accident
+1432,9723,true,Theft
+1433,3861,false,Natural Disaster Loss
+1434,2502,true,Pet Operation
+1435,5172,true,Pet Operation
+1436,1655,false,Theft
+1437,6011,true,Auto Accident
+1438,2935,true,Theft
+1439,9360,true,Theft
+1440,95,true,Fire Damage
+1441,1928,true,Auto Accident
+1442,1667,true,Theft
+1443,5406,true,Theft
+1444,930,true,Auto Accident
+1445,6414,true,Pet Operation
+1446,1698,true,Glass
+1447,4241,true,Theft
+1448,1426,false,Theft
+1449,7071,true,Glass
+1450,1881,false,Fire Damage
+1451,4405,true,Pet Operation
+1452,4943,false,Fire Damage
+1453,5113,false,Flood
+1454,2911,true,Fire Damage
+1455,121,true,Theft
+1456,9728,true,Pet Operation
+1457,4243,true,Glass
+1458,6783,true,Auto Accident
+1459,7185,true,Theft
+1460,2926,true,Fire Damage
+1461,6426,true,Pet Operation
+1462,7726,true,Natural Disaster Loss
+1463,6839,true,Fire Damage
+1464,6855,true,Glass
+1465,375,true,Theft
+1466,4631,true,Pet Operation
+1467,7858,false,Theft
+1468,7025,false,Pet Operation
+1469,5624,true,Auto Accident
+1470,4158,false,Pet Operation
+1471,97,true,Fire Damage
+1472,1252,true,Glass
+1473,8841,true,Natural Disaster Loss
+1474,1771,true,Theft
+1475,8879,false,Glass
+1476,733,true,Natural Disaster Loss
+1477,9516,false,Flood
+1478,8341,true,Natural Disaster Loss
+1479,1090,true,Natural Disaster Loss
+1480,9533,true,Auto Accident
+1481,4470,true,Fire Damage
+1482,3670,true,Theft
+1483,1212,true,Flood
+1484,7551,true,Fire Damage
+1485,658,true,Natural Disaster Loss
+1486,884,true,Pet Operation
+1487,1169,true,Glass
+1488,6020,true,Theft
+1489,1665,true,Theft
+1490,7919,true,Pet Operation
+1491,2631,true,Theft
+1492,6463,true,Flood
+1493,4655,false,Natural Disaster Loss
+1494,375,true,Natural Disaster Loss
+1495,6736,true,Glass
+1496,7397,true,Theft
+1497,5027,false,Auto Accident
+1498,2286,true,Theft
+1499,5959,true,Pet Operation
+1500,5350,true,Theft
+1501,4000,true,Glass
+1502,7864,false,Pet Operation
+1503,8958,true,Fire Damage
+1504,6535,true,Auto Accident
+1505,8442,true,Flood
+1506,1813,true,Theft
+1507,1285,true,Pet Operation
+1508,6655,true,Flood
+1509,4983,true,Theft
+1510,4241,true,Flood
+1511,6382,true,Flood
+1512,142,true,Fire Damage
+1513,6664,true,Fire Damage
+1514,6008,true,Theft
+1515,6642,false,Natural Disaster Loss
+1516,4324,true,Pet Operation
+1517,7788,true,Flood
+1518,5849,false,Flood
+1519,3785,false,Pet Operation
+1520,3524,true,Auto Accident
+1521,4027,true,Glass
+1522,748,true,Auto Accident
+1523,8143,true,Theft
+1524,705,true,Theft
+1525,178,true,Auto Accident
+1526,7621,true,Pet Operation
+1527,2292,true,Flood
+1528,8543,true,Flood
+1529,119,true,Flood
+1530,5301,false,Auto Accident
+1531,5236,true,Glass
+1532,8597,true,Pet Operation
+1533,9006,true,Pet Operation
+1534,1093,true,Flood
+1535,8333,true,Theft
+1536,1567,false,Theft
+1537,8630,true,Theft
+1538,3558,true,Theft
+1539,2785,true,Fire Damage
+1540,4116,true,Natural Disaster Loss
+1541,5902,true,Fire Damage
+1542,9942,false,Natural Disaster Loss
+1543,5067,false,Pet Operation
+1544,5058,true,Theft
+1545,3553,true,Glass
+1546,6538,true,Natural Disaster Loss
+1547,5211,true,Auto Accident
+1548,3104,true,Pet Operation
+1549,9955,true,Natural Disaster Loss
+1550,4197,false,Natural Disaster Loss
+1551,2158,true,Auto Accident
+1552,8425,true,Natural Disaster Loss
+1553,2932,true,Flood
+1554,1527,true,Fire Damage
+1555,2034,true,Auto Accident
+1556,757,true,Theft
+1557,3246,true,Natural Disaster Loss
+1558,2735,false,Glass
+1559,3251,false,Pet Operation
+1560,6481,true,Pet Operation
+1561,3123,false,Auto Accident
+1562,576,true,Glass
+1563,2107,true,Pet Operation
+1564,2927,true,Fire Damage
+1565,2100,true,Natural Disaster Loss
+1566,4666,true,Flood
+1567,5103,true,Glass
+1568,9767,true,Auto Accident
+1569,3101,false,Auto Accident
+1570,2872,true,Natural Disaster Loss
+1571,3363,false,Natural Disaster Loss
+1572,8197,true,Pet Operation
+1573,9821,true,Theft
+1574,1380,true,Glass
+1575,1566,false,Pet Operation
+1576,22,true,Theft
+1577,6325,true,Theft
+1578,5419,true,Flood
+1579,7194,true,Pet Operation
+1580,4270,false,Glass
+1581,3352,true,Pet Operation
+1582,863,true,Flood
+1583,576,true,Glass
+1584,7984,true,Theft
+1585,9073,true,Theft
+1586,5447,false,Theft
+1587,3179,true,Pet Operation
+1588,8724,true,Auto Accident
+1589,2440,true,Flood
+1590,8509,true,Auto Accident
+1591,463,true,Glass
+1592,9260,true,Theft
+1593,1,true,Pet Operation
+1594,1315,true,Auto Accident
+1595,6906,true,Pet Operation
+1596,5349,true,Glass
+1597,1514,true,Pet Operation
+1598,4208,true,Theft
+1599,2180,true,Natural Disaster Loss
+1600,939,true,Theft
+1601,9199,false,Glass
+1602,6408,true,Pet Operation
+1603,1025,false,Fire Damage
+1604,3760,true,Auto Accident
+1605,7065,false,Auto Accident
+1606,7484,true,Flood
+1607,8575,false,Fire Damage
+1608,2571,true,Fire Damage
+1609,9012,true,Theft
+1610,1765,false,Glass
+1611,5446,true,Auto Accident
+1612,348,true,Fire Damage
+1613,2459,true,Theft
+1614,6390,true,Flood
+1615,2490,true,Fire Damage
+1616,4492,true,Theft
+1617,2452,true,Theft
+1618,4900,true,Glass
+1619,145,true,Flood
+1620,9442,false,Glass
+1621,5886,true,Glass
+1622,237,true,Flood
+1623,6272,true,Glass
+1624,6279,true,Glass
+1625,4329,true,Auto Accident
+1626,101,true,Natural Disaster Loss
+1627,523,true,Theft
+1628,4647,true,Auto Accident
+1629,2146,true,Glass
+1630,9546,false,Fire Damage
+1631,3422,true,Glass
+1632,2617,true,Glass
+1633,4007,true,Pet Operation
+1634,3924,true,Flood
+1635,5795,false,Fire Damage
+1636,8391,true,Theft
+1637,5361,true,Theft
+1638,635,true,Pet Operation
+1639,1062,true,Glass
+1640,615,true,Auto Accident
+1641,7795,true,Fire Damage
+1642,6039,false,Flood
+1643,1622,true,Flood
+1644,7536,true,Theft
+1645,5200,true,Fire Damage
+1646,1161,true,Fire Damage
+1647,435,true,Pet Operation
+1648,8883,true,Flood
+1649,7937,true,Natural Disaster Loss
+1650,964,true,Fire Damage
+1651,6551,true,Natural Disaster Loss
+1652,9623,true,Theft
+1653,3157,true,Theft
+1654,9660,true,Theft
+1655,415,true,Theft
+1656,3612,true,Theft
+1657,3436,true,Theft
+1658,1635,false,Theft
+1659,517,true,Natural Disaster Loss
+1660,7642,true,Theft
+1661,1828,true,Theft
+1662,5434,true,Theft
+1663,8366,true,Glass
+1664,7509,true,Pet Operation
+1665,1290,false,Natural Disaster Loss
+1666,241,true,Theft
+1667,6108,true,Theft
+1668,4756,true,Pet Operation
+1669,8169,true,Glass
+1670,1045,false,Auto Accident
+1671,8650,true,Natural Disaster Loss
+1672,9813,false,Natural Disaster Loss
+1673,9684,false,Fire Damage
+1674,7629,true,Glass
+1675,3806,true,Pet Operation
+1676,5596,false,Pet Operation
+1677,806,true,Pet Operation
+1678,4833,true,Glass
+1679,5880,true,Theft
+1680,5364,true,Glass
+1681,3816,true,Fire Damage
+1682,9130,false,Fire Damage
+1683,2522,true,Auto Accident
+1684,2494,true,Natural Disaster Loss
+1685,5027,true,Glass
+1686,8480,true,Flood
+1687,7119,true,Natural Disaster Loss
+1688,9413,true,Theft
+1689,7839,false,Theft
+1690,7833,true,Theft
+1691,881,true,Natural Disaster Loss
+1692,8995,true,Fire Damage
+1693,6661,true,Natural Disaster Loss
+1694,9794,true,Auto Accident
+1695,1607,true,Pet Operation
+1696,9221,true,Theft
+1697,9009,true,Flood
+1698,4209,true,Glass
+1699,3124,true,Fire Damage
+1700,5973,true,Natural Disaster Loss
+1701,6581,true,Glass
+1702,3580,true,Theft
+1703,1991,false,Fire Damage
+1704,5570,true,Theft
+1705,3067,true,Flood
+1706,8241,false,Pet Operation
+1707,878,true,Flood
+1708,9912,true,Glass
+1709,9874,true,Theft
+1710,4170,true,Glass
+1711,3436,true,Natural Disaster Loss
+1712,7934,true,Auto Accident
+1713,210,true,Glass
+1714,8214,true,Pet Operation
+1715,3447,true,Auto Accident
+1716,1083,true,Auto Accident
+1717,7435,true,Pet Operation
+1718,6305,true,Glass
+1719,9580,true,Theft
+1720,9965,true,Natural Disaster Loss
+1721,6146,true,Pet Operation
+1722,4917,false,Theft
+1723,355,false,Theft
+1724,6095,true,Natural Disaster Loss
+1725,4296,false,Theft
+1726,4033,false,Glass
+1727,3221,true,Auto Accident
+1728,6735,true,Flood
+1729,9196,true,Auto Accident
+1730,6060,true,Natural Disaster Loss
+1731,7231,true,Glass
+1732,5295,true,Auto Accident
+1733,4453,true,Fire Damage
+1734,9070,false,Pet Operation
+1735,7260,true,Natural Disaster Loss
+1736,2670,false,Flood
+1737,2814,true,Fire Damage
+1738,5307,true,Natural Disaster Loss
+1739,1474,true,Theft
+1740,8797,true,Theft
+1741,2835,true,Pet Operation
+1742,2424,true,Pet Operation
+1743,374,true,Fire Damage
+1744,8532,true,Flood
+1745,6541,false,Glass
+1746,5442,true,Pet Operation
+1747,6998,true,Auto Accident
+1748,7070,true,Flood
+1749,3960,true,Natural Disaster Loss
+1750,5629,true,Theft
+1751,7552,true,Glass
+1752,8928,false,Pet Operation
+1753,621,true,Flood
+1754,2753,false,Theft
+1755,5566,true,Fire Damage
+1756,5702,true,Theft
+1757,4317,false,Fire Damage
+1758,9088,true,Pet Operation
+1759,6072,true,Pet Operation
+1760,6450,false,Natural Disaster Loss
+1761,4905,false,Auto Accident
+1762,5505,false,Theft
+1763,3360,false,Auto Accident
+1764,7925,true,Pet Operation
+1765,7732,true,Auto Accident
+1766,8405,false,Pet Operation
+1767,2618,true,Auto Accident
+1768,5269,true,Flood
+1769,3134,false,Fire Damage
+1770,1589,true,Auto Accident
+1771,5840,false,Natural Disaster Loss
+1772,1573,true,Theft
+1773,2326,true,Natural Disaster Loss
+1774,1475,false,Pet Operation
+1775,3348,true,Fire Damage
+1776,3045,true,Flood
+1777,3865,true,Glass
+1778,2378,true,Natural Disaster Loss
+1779,1588,true,Fire Damage
+1780,7115,true,Glass
+1781,6225,true,Theft
+1782,6100,true,Glass
+1783,6714,false,Theft
+1784,2753,false,Fire Damage
+1785,3892,true,Auto Accident
+1786,4470,false,Fire Damage
+1787,7269,true,Flood
+1788,5968,true,Fire Damage
+1789,5774,false,Auto Accident
+1790,3435,true,Fire Damage
+1791,5983,false,Auto Accident
+1792,5103,false,Glass
+1793,9328,true,Flood
+1794,4708,true,Pet Operation
+1795,2692,true,Fire Damage
+1796,5782,false,Theft
+1797,897,true,Flood
+1798,6412,true,Fire Damage
+1799,5444,true,Glass
+1800,4400,false,Natural Disaster Loss
+1801,2789,true,Fire Damage
+1802,3067,true,Natural Disaster Loss
+1803,6762,true,Flood
+1804,5589,true,Pet Operation
+1805,8589,true,Theft
+1806,1628,true,Theft
+1807,3802,true,Theft
+1808,1416,true,Fire Damage
+1809,2011,true,Theft
+1810,9552,false,Fire Damage
+1811,3665,false,Theft
+1812,6023,true,Fire Damage
+1813,8079,true,Glass
+1814,2798,true,Theft
+1815,5303,false,Theft
+1816,366,true,Flood
+1817,1042,false,Flood
+1818,7456,true,Fire Damage
+1819,3877,true,Fire Damage
+1820,3360,false,Glass
+1821,7244,true,Glass
+1822,4472,true,Auto Accident
+1823,116,true,Fire Damage
+1824,6241,true,Flood
+1825,6211,true,Flood
+1826,2891,true,Flood
+1827,9445,false,Natural Disaster Loss
+1828,3189,true,Natural Disaster Loss
+1829,7345,true,Natural Disaster Loss
+1830,8521,true,Theft
+1831,6498,true,Theft
+1832,423,true,Natural Disaster Loss
+1833,4834,true,Flood
+1834,447,false,Natural Disaster Loss
+1835,3021,true,Theft
+1836,4821,true,Fire Damage
+1837,1771,true,Glass
+1838,1218,true,Theft
+1839,4519,true,Pet Operation
+1840,7065,true,Theft
+1841,8564,true,Flood
+1842,1974,false,Pet Operation
+1843,5340,true,Fire Damage
+1844,7144,true,Flood
+1845,6988,true,Natural Disaster Loss
+1846,7575,true,Fire Damage
+1847,8155,true,Flood
+1848,3024,false,Theft
+1849,4163,true,Auto Accident
+1850,9081,true,Theft
+1851,3255,true,Auto Accident
+1852,2576,false,Natural Disaster Loss
+1853,3119,true,Glass
+1854,8562,false,Natural Disaster Loss
+1855,8953,false,Glass
+1856,5928,true,Theft
+1857,8027,true,Theft
+1858,3946,true,Natural Disaster Loss
+1859,9970,true,Fire Damage
+1860,3165,false,Theft
+1861,8578,true,Flood
+1862,2526,true,Theft
+1863,7521,true,Natural Disaster Loss
+1864,604,false,Natural Disaster Loss
+1865,9785,false,Theft
+1866,294,false,Natural Disaster Loss
+1867,607,true,Natural Disaster Loss
+1868,4431,true,Theft
+1869,4371,true,Glass
+1870,6564,true,Pet Operation
+1871,6221,true,Theft
+1872,234,true,Auto Accident
+1873,7864,true,Pet Operation
+1874,3948,true,Theft
+1875,7743,true,Glass
+1876,8876,true,Natural Disaster Loss
+1877,4161,false,Glass
+1878,9852,true,Pet Operation
+1879,2143,true,Flood
+1880,8042,true,Natural Disaster Loss
+1881,2567,true,Pet Operation
+1882,5228,true,Glass
+1883,3164,true,Glass
+1884,5877,false,Flood
+1885,9463,false,Pet Operation
+1886,5378,true,Auto Accident
+1887,2697,false,Theft
+1888,4041,false,Theft
+1889,994,false,Theft
+1890,8652,false,Theft
+1891,4839,true,Theft
+1892,4089,false,Fire Damage
+1893,4998,true,Auto Accident
+1894,6187,false,Auto Accident
+1895,184,true,Natural Disaster Loss
+1896,8195,false,Flood
+1897,9524,true,Flood
+1898,8082,true,Theft
+1899,7039,true,Auto Accident
+1900,9314,true,Flood
+1901,2977,true,Theft
+1902,859,false,Theft
+1903,3838,true,Theft
+1904,3121,true,Natural Disaster Loss
+1905,2163,true,Theft
+1906,4793,true,Fire Damage
+1907,3466,true,Pet Operation
+1908,130,true,Auto Accident
+1909,5249,true,Theft
+1910,6074,true,Theft
+1911,4671,true,Theft
+1912,9967,true,Pet Operation
+1913,2362,false,Natural Disaster Loss
+1914,1235,false,Auto Accident
+1915,5025,true,Fire Damage
+1916,6227,true,Theft
+1917,6607,true,Natural Disaster Loss
+1918,2512,false,Pet Operation
+1919,3536,true,Theft
+1920,5457,true,Glass
+1921,3272,true,Glass
+1922,4804,false,Flood
+1923,6275,true,Auto Accident
+1924,1511,true,Natural Disaster Loss
+1925,2841,true,Pet Operation
+1926,4985,true,Natural Disaster Loss
+1927,7886,true,Pet Operation
+1928,638,true,Glass
+1929,6402,true,Theft
+1930,7333,true,Glass
+1931,2567,false,Pet Operation
+1932,5906,true,Theft
+1933,4930,false,Fire Damage
+1934,5099,true,Flood
+1935,95,true,Theft
+1936,3059,true,Flood
+1937,7864,true,Pet Operation
+1938,4217,true,Theft
+1939,1680,true,Theft
+1940,8106,false,Glass
+1941,5820,true,Flood
+1942,672,true,Auto Accident
+1943,2524,true,Fire Damage
+1944,5979,true,Pet Operation
+1945,4829,true,Fire Damage
+1946,509,true,Theft
+1947,6829,true,Fire Damage
+1948,8861,true,Theft
+1949,7839,true,Natural Disaster Loss
+1950,8107,true,Flood
+1951,6017,true,Auto Accident
+1952,8492,true,Glass
+1953,6981,true,Pet Operation
+1954,2775,true,Natural Disaster Loss
+1955,4014,true,Flood
+1956,2020,true,Theft
+1957,299,true,Glass
+1958,7432,true,Flood
+1959,1225,false,Theft
+1960,6531,true,Theft
+1961,1737,false,Pet Operation
+1962,7113,false,Glass
+1963,296,true,Flood
+1964,2277,true,Glass
+1965,166,true,Flood
+1966,4687,false,Glass
+1967,9091,true,Pet Operation
+1968,6060,false,Theft
+1969,3977,true,Theft
+1970,3078,true,Fire Damage
+1971,2796,true,Natural Disaster Loss
+1972,3336,false,Natural Disaster Loss
+1973,7472,true,Auto Accident
+1974,1964,true,Theft
+1975,7823,true,Theft
+1976,7461,true,Glass
+1977,895,true,Flood
+1978,5603,true,Flood
+1979,8940,false,Auto Accident
+1980,8610,true,Glass
+1981,7879,true,Flood
+1982,3831,true,Theft
+1983,4205,true,Natural Disaster Loss
+1984,8674,true,Auto Accident
+1985,3298,true,Glass
+1986,3669,true,Auto Accident
+1987,3742,true,Fire Damage
+1988,4452,true,Theft
+1989,443,true,Flood
+1990,9682,true,Theft
+1991,5382,false,Theft
+1992,168,false,Natural Disaster Loss
+1993,4784,true,Flood
+1994,6347,true,Glass
+1995,8375,true,Theft
+1996,7393,false,Theft
+1997,4113,true,Fire Damage
+1998,6994,true,Flood
+1999,205,true,Theft
+2000,8146,true,Glass
+2001,5764,true,Pet Operation
+2002,9341,true,Auto Accident
+2003,5846,true,Fire Damage
+2004,7489,true,Flood
+2005,2596,true,Theft
+2006,6846,true,Natural Disaster Loss
+2007,1416,true,Theft
+2008,8566,false,Pet Operation
+2009,9094,false,Theft
+2010,2023,true,Pet Operation
+2011,4861,false,Theft
+2012,9708,true,Auto Accident
+2013,7397,true,Fire Damage
+2014,5715,true,Glass
+2015,2693,true,Auto Accident
+2016,9080,true,Auto Accident
+2017,3512,true,Auto Accident
+2018,4618,true,Flood
+2019,6547,true,Glass
+2020,8499,true,Theft
+2021,3287,true,Fire Damage
+2022,5964,true,Theft
+2023,3368,true,Pet Operation
+2024,318,false,Theft
+2025,9597,false,Glass
+2026,6065,false,Natural Disaster Loss
+2027,3456,true,Auto Accident
+2028,9285,true,Glass
+2029,5763,false,Flood
+2030,1303,true,Auto Accident
+2031,5767,false,Natural Disaster Loss
+2032,5710,true,Theft
+2033,3971,false,Glass
+2034,9396,true,Auto Accident
+2035,3991,false,Theft
+2036,830,true,Glass
+2037,5423,true,Fire Damage
+2038,1937,true,Natural Disaster Loss
+2039,2984,false,Pet Operation
+2040,144,true,Auto Accident
+2041,8395,false,Pet Operation
+2042,8348,true,Auto Accident
+2043,9164,true,Glass
+2044,1779,true,Auto Accident
+2045,376,true,Natural Disaster Loss
+2046,6987,false,Theft
+2047,1031,true,Auto Accident
+2048,7482,true,Flood
+2049,5527,false,Glass
+2050,5796,false,Theft
+2051,1551,false,Natural Disaster Loss
+2052,1092,false,Pet Operation
+2053,2026,false,Auto Accident
+2054,8223,false,Theft
+2055,4430,true,Glass
+2056,3698,true,Auto Accident
+2057,9401,true,Theft
+2058,2316,true,Glass
+2059,9478,true,Auto Accident
+2060,7038,true,Fire Damage
+2061,1272,true,Fire Damage
+2062,7673,false,Flood
+2063,2908,true,Theft
+2064,2840,false,Fire Damage
+2065,3045,true,Fire Damage
+2066,6648,true,Theft
+2067,5022,true,Theft
+2068,9080,true,Glass
+2069,6696,true,Theft
+2070,4114,true,Pet Operation
+2071,9418,false,Theft
+2072,5371,false,Auto Accident
+2073,5582,true,Fire Damage
+2074,6385,true,Flood
+2075,2635,false,Flood
+2076,1956,true,Flood
+2077,8840,true,Pet Operation
+2078,1306,true,Glass
+2079,5981,false,Fire Damage
+2080,8686,true,Natural Disaster Loss
+2081,7811,true,Natural Disaster Loss
+2082,7918,true,Fire Damage
+2083,5791,true,Glass
+2084,2676,true,Fire Damage
+2085,8880,true,Theft
+2086,8369,true,Flood
+2087,846,false,Flood
+2088,3216,true,Theft
+2089,2442,false,Pet Operation
+2090,2373,false,Flood
+2091,3890,true,Pet Operation
+2092,1613,true,Flood
+2093,7079,true,Auto Accident
+2094,1999,true,Natural Disaster Loss
+2095,4334,true,Theft
+2096,5766,false,Theft
+2097,2415,true,Glass
+2098,2772,true,Natural Disaster Loss
+2099,3886,false,Natural Disaster Loss
+2100,7539,true,Glass
+2101,671,true,Auto Accident
+2102,1238,true,Fire Damage
+2103,6153,true,Fire Damage
+2104,8111,true,Theft
+2105,8889,true,Fire Damage
+2106,7073,false,Auto Accident
+2107,191,true,Glass
+2108,4270,true,Auto Accident
+2109,7119,true,Theft
+2110,390,false,Glass
+2111,9648,true,Natural Disaster Loss
+2112,8511,true,Natural Disaster Loss
+2113,3224,false,Flood
+2114,2348,false,Natural Disaster Loss
+2115,7795,true,Natural Disaster Loss
+2116,6526,true,Fire Damage
+2117,5404,true,Pet Operation
+2118,7449,true,Theft
+2119,8583,false,Fire Damage
+2120,5403,true,Glass
+2121,5921,true,Pet Operation
+2122,9441,true,Pet Operation
+2123,9422,true,Glass
+2124,6539,true,Fire Damage
+2125,7055,false,Theft
+2126,9915,true,Auto Accident
+2127,1624,true,Pet Operation
+2128,5071,false,Fire Damage
+2129,1904,false,Glass
+2130,2892,true,Auto Accident
+2131,4922,false,Auto Accident
+2132,1819,true,Theft
+2133,5365,false,Auto Accident
+2134,2993,true,Theft
+2135,5829,true,Pet Operation
+2136,4576,false,Pet Operation
+2137,2898,false,Flood
+2138,9308,false,Theft
+2139,2205,false,Theft
+2140,5361,true,Auto Accident
+2141,8763,false,Pet Operation
+2142,6320,false,Glass
+2143,9328,false,Natural Disaster Loss
+2144,9244,true,Pet Operation
+2145,2027,true,Pet Operation
+2146,149,false,Natural Disaster Loss
+2147,4659,true,Glass
+2148,993,true,Glass
+2149,2495,true,Pet Operation
+2150,3840,true,Glass
+2151,7341,true,Theft
+2152,6459,true,Auto Accident
+2153,3977,true,Glass
+2154,6481,true,Pet Operation
+2155,8553,true,Pet Operation
+2156,5047,true,Theft
+2157,6016,true,Flood
+2158,1157,true,Auto Accident
+2159,7972,true,Auto Accident
+2160,7485,true,Fire Damage
+2161,5436,false,Pet Operation
+2162,5042,true,Natural Disaster Loss
+2163,4500,true,Flood
+2164,7559,true,Theft
+2165,7188,false,Pet Operation
+2166,4632,false,Natural Disaster Loss
+2167,3295,true,Pet Operation
+2168,144,false,Glass
+2169,5319,true,Natural Disaster Loss
+2170,9893,false,Auto Accident
+2171,711,true,Theft
+2172,6744,true,Glass
+2173,1204,true,Theft
+2174,5998,true,Theft
+2175,6432,true,Glass
+2176,7111,true,Glass
+2177,4720,true,Glass
+2178,9708,false,Glass
+2179,8880,true,Fire Damage
+2180,8121,true,Glass
+2181,57,false,Flood
+2182,7962,true,Theft
+2183,7418,true,Pet Operation
+2184,4305,true,Fire Damage
+2185,2638,true,Flood
+2186,2100,false,Natural Disaster Loss
+2187,8137,true,Pet Operation
+2188,6285,false,Pet Operation
+2189,5632,false,Flood
+2190,7689,false,Glass
+2191,662,true,Glass
+2192,7813,true,Flood
+2193,7662,true,Flood
+2194,1690,false,Flood
+2195,492,true,Theft
+2196,1965,false,Theft
+2197,2677,true,Auto Accident
+2198,8390,true,Fire Damage
+2199,4065,true,Theft
+2200,9000,true,Natural Disaster Loss
+2201,2174,true,Pet Operation
+2202,6245,true,Theft
+2203,8293,true,Flood
+2204,6996,true,Natural Disaster Loss
+2205,1043,true,Theft
+2206,73,true,Pet Operation
+2207,5280,true,Pet Operation
+2208,8435,false,Theft
+2209,8564,true,Flood
+2210,3909,true,Pet Operation
+2211,494,true,Pet Operation
+2212,9505,false,Theft
+2213,9114,true,Glass
+2214,900,true,Glass
+2215,2969,true,Theft
+2216,346,true,Pet Operation
+2217,9563,true,Natural Disaster Loss
+2218,7500,false,Glass
+2219,377,true,Fire Damage
+2220,4278,true,Fire Damage
+2221,3572,true,Fire Damage
+2222,8844,true,Theft
+2223,3601,true,Natural Disaster Loss
+2224,5947,true,Auto Accident
+2225,5133,true,Auto Accident
+2226,594,true,Fire Damage
+2227,2979,true,Flood
+2228,7462,false,Natural Disaster Loss
+2229,9036,true,Glass
+2230,8208,true,Theft
+2231,5087,true,Theft
+2232,6121,true,Pet Operation
+2233,1128,true,Auto Accident
+2234,1520,true,Theft
+2235,7036,false,Flood
+2236,1806,true,Auto Accident
+2237,3472,true,Pet Operation
+2238,4939,true,Auto Accident
+2239,3217,true,Theft
+2240,5365,true,Theft
+2241,3935,true,Pet Operation
+2242,5641,false,Flood
+2243,7820,true,Auto Accident
+2244,5273,true,Fire Damage
+2245,6520,true,Auto Accident
+2246,5460,true,Natural Disaster Loss
+2247,1114,true,Flood
+2248,4336,true,Glass
+2249,7202,true,Glass
+2250,7613,false,Flood
+2251,5586,true,Theft
+2252,1433,true,Auto Accident
+2253,1114,true,Natural Disaster Loss
+2254,8706,true,Fire Damage
+2255,8819,true,Theft
+2256,7133,true,Glass
+2257,3461,true,Glass
+2258,6803,true,Fire Damage
+2259,5046,false,Pet Operation
+2260,2405,false,Flood
+2261,7825,true,Glass
+2262,6493,true,Theft
+2263,2807,false,Theft
+2264,4799,true,Theft
+2265,9115,true,Natural Disaster Loss
+2266,351,false,Glass
+2267,8728,true,Flood
+2268,1057,false,Pet Operation
+2269,4675,true,Theft
+2270,2426,true,Theft
+2271,8320,true,Natural Disaster Loss
+2272,56,true,Theft
+2273,4089,true,Fire Damage
+2274,9323,true,Pet Operation
+2275,2707,true,Theft
+2276,4314,true,Fire Damage
+2277,1901,true,Fire Damage
+2278,8754,false,Glass
+2279,519,false,Pet Operation
+2280,1633,true,Theft
+2281,2509,true,Natural Disaster Loss
+2282,3288,true,Fire Damage
+2283,7787,true,Glass
+2284,8954,false,Flood
+2285,1153,true,Auto Accident
+2286,7840,false,Glass
+2287,4769,false,Natural Disaster Loss
+2288,9599,true,Natural Disaster Loss
+2289,238,true,Theft
+2290,5875,true,Theft
+2291,2420,true,Fire Damage
+2292,5264,true,Fire Damage
+2293,8372,true,Glass
+2294,5588,true,Theft
+2295,2875,false,Theft
+2296,5664,true,Natural Disaster Loss
+2297,4981,false,Pet Operation
+2298,1682,true,Glass
+2299,2878,true,Theft
+2300,4967,true,Natural Disaster Loss
+2301,5613,false,Theft
+2302,7944,true,Natural Disaster Loss
+2303,8602,true,Auto Accident
+2304,8897,true,Theft
+2305,5927,true,Theft
+2306,2908,true,Flood
+2307,1035,true,Fire Damage
+2308,6347,true,Theft
+2309,2807,false,Glass
+2310,1941,false,Auto Accident
+2311,3091,true,Fire Damage
+2312,1459,false,Pet Operation
+2313,7027,true,Natural Disaster Loss
+2314,6794,true,Theft
+2315,7730,true,Auto Accident
+2316,6429,true,Theft
+2317,1359,true,Theft
+2318,8237,true,Fire Damage
+2319,2871,true,Theft
+2320,4794,true,Auto Accident
+2321,9629,true,Auto Accident
+2322,2227,true,Theft
+2323,4264,true,Glass
+2324,4370,true,Glass
+2325,4148,true,Auto Accident
+2326,8899,true,Natural Disaster Loss
+2327,8889,true,Flood
+2328,4886,true,Flood
+2329,887,true,Pet Operation
+2330,6781,false,Fire Damage
+2331,4840,true,Theft
+2332,8358,true,Theft
+2333,9359,true,Fire Damage
+2334,2444,true,Theft
+2335,3303,true,Auto Accident
+2336,456,false,Natural Disaster Loss
+2337,9295,false,Pet Operation
+2338,6216,true,Glass
+2339,3092,true,Natural Disaster Loss
+2340,3804,true,Auto Accident
+2341,2071,true,Fire Damage
+2342,6608,true,Theft
+2343,1236,true,Flood
+2344,4074,true,Pet Operation
+2345,3883,true,Natural Disaster Loss
+2346,9491,true,Theft
+2347,1822,true,Natural Disaster Loss
+2348,9313,false,Auto Accident
+2349,6148,true,Theft
+2350,1327,true,Natural Disaster Loss
+2351,8904,true,Theft
+2352,7503,true,Flood
+2353,5027,true,Theft
+2354,325,true,Fire Damage
+2355,5391,true,Natural Disaster Loss
+2356,4562,true,Flood
+2357,3612,true,Glass
+2358,556,true,Pet Operation
+2359,2189,true,Natural Disaster Loss
+2360,7433,true,Pet Operation
+2361,2341,true,Pet Operation
+2362,3227,true,Glass
+2363,6691,true,Natural Disaster Loss
+2364,4010,false,Theft
+2365,7089,true,Theft
+2366,3569,false,Pet Operation
+2367,252,true,Natural Disaster Loss
+2368,473,true,Natural Disaster Loss
+2369,7159,true,Fire Damage
+2370,8379,true,Pet Operation
+2371,6979,true,Theft
+2372,7584,true,Pet Operation
+2373,255,true,Theft
+2374,7891,false,Natural Disaster Loss
+2375,1850,true,Pet Operation
+2376,4291,true,Flood
+2377,7544,true,Auto Accident
+2378,6328,true,Theft
+2379,9626,true,Theft
+2380,1228,false,Glass
+2381,5358,true,Auto Accident
+2382,3125,true,Pet Operation
+2383,9900,true,Glass
+2384,4009,true,Pet Operation
+2385,3497,false,Theft
+2386,2067,false,Glass
+2387,97,false,Fire Damage
+2388,4961,true,Fire Damage
+2389,2276,true,Natural Disaster Loss
+2390,4911,true,Glass
+2391,7354,true,Theft
+2392,5023,true,Flood
+2393,1082,true,Fire Damage
+2394,3549,true,Natural Disaster Loss
+2395,369,true,Pet Operation
+2396,2386,true,Pet Operation
+2397,6398,true,Auto Accident
+2398,7325,true,Theft
+2399,3551,true,Pet Operation
+2400,3976,false,Glass
+2401,3936,true,Theft
+2402,1737,false,Pet Operation
+2403,2908,true,Fire Damage
+2404,8470,false,Auto Accident
+2405,2212,true,Fire Damage
+2406,6398,true,Glass
+2407,5107,true,Theft
+2408,6849,true,Glass
+2409,3829,true,Natural Disaster Loss
+2410,6801,true,Flood
+2411,7655,true,Natural Disaster Loss
+2412,7965,true,Pet Operation
+2413,7465,true,Glass
+2414,9790,true,Fire Damage
+2415,9877,true,Pet Operation
+2416,5677,true,Theft
+2417,1122,true,Flood
+2418,7206,true,Fire Damage
+2419,2496,true,Fire Damage
+2420,1787,true,Natural Disaster Loss
+2421,4511,true,Auto Accident
+2422,3825,true,Pet Operation
+2423,1927,true,Flood
+2424,2291,true,Theft
+2425,2276,true,Fire Damage
+2426,2666,true,Glass
+2427,1756,true,Theft
+2428,5759,false,Glass
+2429,2513,true,Theft
+2430,3752,true,Flood
+2431,8024,true,Fire Damage
+2432,7935,true,Pet Operation
+2433,7754,false,Natural Disaster Loss
+2434,7202,true,Auto Accident
+2435,7990,false,Auto Accident
+2436,3145,true,Flood
+2437,2025,true,Auto Accident
+2438,9480,true,Theft
+2439,7626,true,Theft
+2440,2639,false,Natural Disaster Loss
+2441,4364,true,Auto Accident
+2442,8637,true,Flood
+2443,6601,true,Fire Damage
+2444,167,true,Pet Operation
+2445,1625,true,Pet Operation
+2446,3847,true,Flood
+2447,1731,true,Pet Operation
+2448,9496,false,Flood
+2449,6052,true,Theft
+2450,4487,true,Natural Disaster Loss
+2451,4009,false,Pet Operation
+2452,6571,false,Natural Disaster Loss
+2453,3684,true,Pet Operation
+2454,5601,false,Flood
+2455,1248,false,Flood
+2456,3028,true,Pet Operation
+2457,5149,false,Fire Damage
+2458,5499,true,Theft
+2459,9573,true,Flood
+2460,1688,true,Glass
+2461,4536,true,Natural Disaster Loss
+2462,6053,true,Auto Accident
+2463,3111,true,Theft
+2464,9942,true,Fire Damage
+2465,6742,false,Glass
+2466,4303,true,Flood
+2467,4838,false,Auto Accident
+2468,1365,true,Pet Operation
+2469,9462,true,Theft
+2470,2013,true,Fire Damage
+2471,1358,true,Natural Disaster Loss
+2472,6687,true,Natural Disaster Loss
+2473,7492,true,Pet Operation
+2474,3061,false,Natural Disaster Loss
+2475,9332,true,Theft
+2476,2913,false,Fire Damage
+2477,6862,true,Glass
+2478,9253,false,Theft
+2479,3920,true,Theft
+2480,2803,true,Glass
+2481,9987,true,Glass
+2482,3205,true,Theft
+2483,3480,true,Flood
+2484,5485,true,Auto Accident
+2485,9146,true,Fire Damage
+2486,276,true,Pet Operation
+2487,68,false,Natural Disaster Loss
+2488,7733,true,Theft
+2489,159,false,Natural Disaster Loss
+2490,3380,true,Natural Disaster Loss
+2491,1832,true,Natural Disaster Loss
+2492,4289,true,Theft
+2493,3495,true,Flood
+2494,9242,true,Glass
+2495,7764,true,Auto Accident
+2496,6531,true,Theft
+2497,4687,true,Glass
+2498,6327,false,Theft
+2499,2993,false,Theft

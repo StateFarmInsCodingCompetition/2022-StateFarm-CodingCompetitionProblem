@@ -2,6 +2,7 @@ package com.statefarm.codingcompetition.simpledatatool;
 
 import static org.junit.Assert.assertEquals;
 
+import java.lang.reflect.Method;
 import java.util.List;
 import java.util.Map;
 
@@ -33,6 +34,10 @@ public class AppTest {
     // #1 Can read whole customer CSV as List<Customer>
     @Test
     public void readCustomerCSV() {
+//        Method[] classMethods = Policy.class.getDeclaredMethods();
+//        for(Method m: classMethods)
+//            if(m.getName().contains("set"))
+//            System.out.println(m.getName() + " " + m.getParameterTypes()[0].getName());
         List<Customer> customers = controller.readCsvFile(customersFilePath, Customer.class);
         System.out.println(customers.size());
 
