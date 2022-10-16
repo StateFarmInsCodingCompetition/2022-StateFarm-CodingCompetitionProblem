@@ -78,7 +78,8 @@ public class SimpleDataToolController {
      * @return number of customer for agent
      */
     public int getNumberOfAgentsForState(String filePath, String state) {
-        return 0;
+        List<Agent> agents = readCsvFile(filePath, Agent.class);
+        return (int) agents.stream().filter(agent -> agent.getState().equals(state)).count();
     }
 
     /**
