@@ -31,7 +31,21 @@ public class SimpleDataToolController {
      * @return List of entries from CSV file
      */
     public <T> List<T> readCsvFile(String filePath, Class<T> classType) {
-        return null;
+        List<T> entries = new ArrayList<>();
+        try {
+            CsvSchema bootstrapSchema = CsvSchema.emptySchema().withHeader();
+            CsvMapper mapper = new CsvMapper();
+            mapper.enable(DeserializationFeature.ACCEPT_EMPTY_STRING_AS_NULL_OBJECT);
+            ObjectReader oReader = mapper.readerFor(classType).with(bootstrapSchema);
+            Reader reader = new FileReader(filePath);
+            MappingIterator<T> mi = oReader.readValues(reader);
+            while (mi.hasNext()) {
+                entries.add(mi.next());
+            }
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return entries;
     }
 
     /**
